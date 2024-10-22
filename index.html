@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="./css/navbar/navbar.css">
     <link rel="stylesheet" href="./css/video/video.css">
+    <link rel="stylesheet" href="./css/countdown/countdown.css">
 
     <!-- Fonts -->
 
@@ -146,7 +147,54 @@
     </div>
     <!-- end vidéo -->
 
+    <!-- start countdown -->
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 text-center">
+          <div class="countdown-container p-5 rounded shadow">
+            <h2 class="mb-4 text-uppercase fw-bold gradient-text title tf2">
+              Le festival commence dans
+            </h2>
+            <div id="countdown" class="d-flex justify-content-center gap-4">
+              <div class="countdown-item">
+                <div class="countdown-number rounded-circle bg-gradient text-white d-flex justify-content-center align-items-center">
+                  <span id="months" class="display-4"></span>
+                </div>
+                <p class="text-uppercase mt-2 gradient-text">Mois</p>
+              </div>
+              <div class="countdown-item">
+                <div class="countdown-number rounded-circle bg-gradient text-white d-flex justify-content-center align-items-center">
+                  <span id="days" class="display-4"></span>
+                </div>
+                <p class="text-uppercase mt-2 gradient-text">Jours</p>
+              </div>
+              <div class="countdown-item">
+                <div class="countdown-number rounded-circle bg-gradient text-white d-flex justify-content-center align-items-center">
+                  <span id="hours" class="display-4"></span>
+                </div>
+                <p class="text-uppercase mt-2 gradient-text">Heures</p>
+              </div>
+              <div class="countdown-item">
+                <div class="countdown-number rounded-circle bg-gradient text-white d-flex justify-content-center align-items-center">
+                  <span id="minutes" class="display-4"></span>
+                </div>
+                <p class="text-uppercase mt-2 gradient-text">Minutes</p>
+              </div>
+              <div class="countdown-item d-none d-sm-block">
+                <div class="countdown-number rounded-circle bg-gradient text-white d-flex justify-content-center align-items-center">
+                  <span id="seconds" class="display-4"></span>
+                </div>
+                <p class="text-uppercase mt-2 gradient-text">Sec</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end countdown -->
+
     <!-- start script js -->
     <script src="./js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./js/countdown/countdown.js"></script>
 
 </html>
