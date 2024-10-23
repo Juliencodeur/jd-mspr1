@@ -1,0 +1,23 @@
+.practical-info-section .card {
+    background-color: #2c3e50;
+    border: none;
+}
+
+
+.practical-info-section .card-body {
+    padding: 20px;
+}
+
+.practical-info-section .btn-outline-light {
+    border-color: #00c6ff;
+    color: #00c6ff;
+}
+
+.btn-outline-light:hover {
+    background-color: #00c6ff;
+    color: #ffffff;
+}
+
+.marg {
+    margin-top: 5rem;
+}
