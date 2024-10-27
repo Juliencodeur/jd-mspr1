@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="./css/countdown/countdown.css">
     <link rel="stylesheet" href="./css/carousel/carousel.css">
     <link rel="stylesheet" href="./css/infos/infos.css">
+    <link rel="stylesheet" href="./css/rgpd/rgpd.css">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -723,9 +724,103 @@
     </footer>
     <!-- end footer -->
      
+    <!-- start rgpd -->
+    <div id="cookieConsent" class="container-fluid bg-dark text-white p-2 fixed-bottom">
+      <div class="row">
+        <div class="col-12 col-sm-8 bf">
+          Nous utilisons des cookies pour vous offrir la meilleure expérience sur notre site, analyser le trafic, et personnaliser le contenu. En continuant à naviguer, vous acceptez l'utilisation de cookies. <a href="#" class="text-info" data-bs-toggle="modal" data-bs-target="#cookieInfoModal">Plus d'infos</a>.
+        </div>
+        <div class="col-12 col-sm-4 mt-2 mt-sm-0 d-flex justify-content-center justify-content-sm-end">
+          <button class="btn btn-success mx-1 bf" onclick="acceptCookies()">Accepter</button>
+          <button class="btn btn-danger mx-1 bf" onclick="refuseCookies()">Refuser</button>
+          <button class="btn btn-secondary mx-1 bf" onclick="manageCookies()">Gérer les cookies</button>
+        </div>
+      </div>
+    </div>
+    <!-- end rgpd -->
+
+    <!-- start cookie modal -->
+    <div class="modal fade" id="cookieInfoModal" tabindex="-1" aria-labelledby="cookieInfoModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-dark" id="cookieInfoModalLabel">Informations sur les Cookies</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p class="text-dark">
+              Nous utilisons des cookies pour personnaliser le contenu et les annonces, fournir des fonctionnalités de réseaux sociaux et analyser notre trafic. Vous pouvez en savoir plus sur notre utilisation des cookies dans notre politique de confidentialité. Vous avez le droit de refuser les cookies, mais cela pourrait affecter votre expérience sur le site.
+            </p>
+            <p class="text-dark">
+              <strong>Types de cookies utilisés :</strong>
+            </p>
+            <ul>
+              <li class="text-dark"><strong>Cookies nécessaires :</strong> Ces cookies sont essentiels pour vous permettre de naviguer sur le site et d'utiliser ses fonctionnalités, telles que l'accès aux zones sécurisées du site.</li>
+              <li class="text-dark"><strong>Cookies de performance :</strong> Ces cookies collectent des informations sur la manière dont les visiteurs utilisent un site Web, par exemple les pages les plus souvent visitées.</li>
+              <li class="text-dark"><strong>Cookies de fonctionnalité :</strong> Ces cookies permettent au site de se souvenir des choix que vous faites (comme votre nom d'utilisateur, la langue ou la région où vous vous trouvez) et de fournir des fonctionnalités améliorées et plus personnelles.</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end cookie modal -->
+
+    <!-- Start cookies management modal -->
+    <div class="modal fade" id="cookieManagementModal" tabindex="-1" aria-labelledby="cookieManagementModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-dark" id="cookieManagementModalLabel">Préférences des Cookies</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p class="text-dark">
+              Nous utilisons des cookies pour optimiser notre site web et notre service. Les cookies nécessaires sont toujours activés pour assurer le bon fonctionnement du site. Vous pouvez ajuster vos préférences pour les cookies non essentiels ci-dessous.
+            </p>
+
+            <div class="mb-3">
+              <h6 class="text-dark">Cookies Nécessaires</h6>
+              <p class="text-dark">Ces cookies sont essentiels pour le fonctionnement du site et ne peuvent être désactivés.</p>
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" id="necessaryCookies" checked disabled>
+                <label class="form-check-label text-dark" for="necessaryCookies">Activé</label>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <h6 class="text-dark">Cookies de Performance</h6>
+              <p class="text-dark">Ces cookies collectent des informations sur l'utilisation du site web par les visiteurs, permettant d'améliorer les services et l'expérience utilisateur.</p>
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" id="performanceCookies">
+                <label class="form-check-label text-dark" for="performanceCookies">Activé</label>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <h6 class="text-dark">Cookies de Publicité</h6>
+              <p class="text-dark">Ces cookies sont utilisés pour fournir des publicités plus pertinentes pour vous et vos intérêts. Ils sont également utilisés pour limiter le nombre de fois que vous voyez une publicité.</p>
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" id="advertisingCookies">
+                <label class="form-check-label text-dark" for="advertisingCookies">Activé</label>
+              </div>
+            </div>
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" onclick="saveCookieSettings()">Sauvegarder les préférences</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end cookies management modal -->
+
     <!-- start script js -->
     <script src="./js/bootstrap/bootstrap.bundle.min.js"></script>
     <script src="./js/countdown/countdown.js"></script>
+    <script src="./js/rgpd/rgpd.js"></script>
     
 
 </html>
