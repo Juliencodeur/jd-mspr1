@@ -1,0 +1,36 @@
+/* imports */
+.league-gothic {
+  font-family: "League Gothic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+/* titles */
+
+.tf {
+  font-family: League Gothic;
+  font-size: 4rem;
+  color: #f7e5d4;
+}
+
+.tf2 {
+  font-family: League Gothic;
+  font-size: 3rem;
+  color: #f7e5d4;
+}
+
+/* texts */
+
+.bf {
+  font-family: Open Sans;
+  color: #f7e5d4;
+}

@@ -1,0 +1,35 @@
+
+
+.lined-title {
+    position: relative;
+    text-align: center;
+  }
+  
+  .lined-title::before,
+  .lined-title::after {
+    content: "";
+    position: absolute;
+    height: 2px; 
+    width: 100%; 
+    background-color: #f0e0e0; 
+    top: 100%; 
+    transform: translateY(-50%);
+  }
+  
+  .lined-title::before {
+    left: 0;
+  }
+  
+  .lined-title::after {
+    right: 0;
+  }
+  
+  .lined-title::before {
+    top: -10px; 
+  }
+  
+  .lined-title::after {
+    top: auto;
+    bottom: -10px; 
+  }
+  

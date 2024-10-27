@@ -1,0 +1,26 @@
+.toggle-button {
+  background-color: #0078D4; /* Microsoft Blue */
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+.toggle-button.disabled {
+  background-color: #ccc;
+  color: #666;
+}
+
+.cookie-setting {
+  margin-bottom: 15px;
+}
+
+.cookie-setting h6 {
+  margin-bottom: 5px;
+}
+
+.cookie-setting p {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 5px;
+}
