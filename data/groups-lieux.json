@@ -1,0 +1,493 @@
+{
+    "Starlight Stage": {
+      "friday": [
+        {
+          "name": "Alpine Echoes",
+          "image": "../../assets/img/Alpines-Echoes.jpg",
+          "time": "12:00 - 13:30",
+          "link": "../groupes/alpine-echoes.html"
+        },
+        {
+          "name": "Desert Moon",
+          "image": "../../assets/img/desert-moonshine.jpg",
+          "time": "20:00 - 21:30",
+          "link": "../groupes/alpine-echoes.html"
+        },
+        {
+          "name": "Prairie Fire",
+          "image": "../../assets/img/prairie-fire.jpg",
+          "time": "16:00 - 17:30",
+          "link": "../groupes/prairie-fire.html"
+        },
+        {
+          "name": "Rusty Spurs",
+          "image": "../../assets/img/rusty-spurs.jpg",
+          "time": "14:00 - 15:30",
+          "link": "../groupes/rusty-spurs.html"
+        },
+        {
+          "name": "Maple Riders",
+          "image": "../../assets/img/maple-riders.jpg",
+          "time": "18:00 - 19:30",
+          "link": "../groupes/maple-riders.html"
+        }
+      ],
+      "saturday": [
+        {
+          "name": "Sweet Grass",
+          "image": "../../assets/img/sweet-grass.jpg",
+          "time": "18:00 - 19:30",
+          "link": "../groupes/sweet-grass.html"
+        },
+        {
+          "name": "Golden Saddles",
+          "image": "../../assets/img/golden-saddles.jpg",
+          "time": "12:00 - 13:30",
+          "link": "../groupes/golden-saddles.html"
+        },
+        {
+          "name": "Green Valley",
+          "image": "../../assets/img/green-valley.jpg",
+          "time": "20:00 - 21:30",
+          "link": "../groupes/green-valley.html"
+        },
+        {
+          "name": "Coyote Creek",
+          "image": "../../assets/img/coyote-creek.jpg",
+          "time": "14:00 - 15:30",
+          "link": "../groupes/coyote-creek.html"
+        },
+        {
+          "name": "Painted Drifters",
+          "image": "../../assets/img/painted-drifters.jpg",
+          "time": "16:00 - 17:30",
+          "link": "../groupes/painted-drifters.html"
+        }
+      ],
+      "sunday": [
+        {
+            "name": "Out Band",
+            "image": "../../assets/img/out-band.jpg",
+            "time": "12:00 - 13:30",
+            "link": "../groupes/out-band.html"
+          },
+        {
+            "name": "Tango Field",
+            "image": "../../assets/img/tango-field.jpg",
+            "time": "14:00 - 15:30",
+            "link": "../groupes/tango-field.html"
+          },
+        {
+            "name": "Rusted Rails",
+            "image": "../../assets/img/rusted-rails.jpg",
+            "time": "20:30 - 22:00",
+            "link": "../groupes/rusted-rails.html"
+          },
+        {
+            "name": "Tidal Wave",
+            "image": "../../assets/img/tidal-wave.jpg",
+            "time": "17:30 - 19:00",
+            "link": "../groupes/tidal-wave.html"
+          },
+        {
+            "name": "Yellow Stone",
+            "image": "../../assets/img/yellow-stone.jpg",
+            "time": "15:00 - 16:30",
+            "link": "../groupes/yellow-stone.html"
+          }
+      ]
+    },
+    "Sunset Pavilion": {
+      "friday": [
+        {
+          "name": "Wagon Wheels",
+          "image": "../../assets/img/wagon-wheels.jpg",
+          "time": "12:30 - 14:00",
+          "link": "../groupes/wagon-wheels.html"
+        },
+        {
+          "name": "Lone Star",
+          "image": "../../assets/img/lone-star.jpg",
+          "time": "16:30 - 18:00",
+          "link": "../groupes/lone-star.html"
+        },
+        {
+          "name": "Twisted Trail",
+          "image": "../../assets/img/twisted-trail.jpg",
+          "time": "20:30 - 22:00",
+          "link": "../groupes/twisted-trail.html"
+        },
+        {
+          "name": "Wisk River",
+          "image": "../../assets/img/Whisk-River.jpg",
+          "time": "18:30 - 20:00",
+          "link": "../groupes/wisk-river.html"
+        },
+        {
+          "name": "Whale Point",
+          "image": "../../assets/img/whale-point.jpg",
+          "time": "14:30 - 16:00",
+          "link": "../groupes/whale-point.html"
+        }
+      ],
+      "saturday": [
+        {
+          "name": "Dust Bowl",
+          "image": "../../assets/img/dust-bowl.jpg",
+          "time": "12:30 - 14:00",
+          "link": "../groupes/dust-bowl.html"
+        },
+        {
+          "name": "Sunny Brook",
+          "image": "../../assets/img/sunny-brook.jpg",
+          "time": "14:30 - 16:00",
+          "link": "../groupes/sunny-brook.html"
+        },
+        {
+          "name": "Wild West",
+          "image": "../../assets/img/wild-west.jpg",
+          "time": "20:30 - 22:00",
+          "link": "../groupes/wild-west.html"
+        },
+        {
+          "name": "Copper County",
+          "image": "../../assets/img/copper-country.jpg",
+          "time": "15:00 - 16:30",
+          "link": "../groupes/copper-country.html"
+        },
+        {
+          "name": "Rocky Ridge",
+          "image": "../../assets/img/rocky-ridge.jpg",
+          "time": "18:30 - 20:00",
+          "link": "../groupes/rocky-ridge.html"
+        }
+      ],
+      "sunday": [
+        {
+          "name": "Painted Posse",
+          "image": "../../assets/img/painted-posse.jpg",
+          "time": "12:00 - 13:30",
+          "link": "../groupes/painted-posse.html"
+        },
+        {
+          "name": "Trail Ridge",
+          "image": "../../assets/img/trail-ridge.jpg",
+          "time": "12:30 - 14:00",
+          "link": "../groupes/trail-ridge.html"
+        },
+        {
+          "name": "Birch Grove",
+          "image": "../../assets/img/birch-grove.jpg",
+          "time": "14:30 - 16:00",
+          "link": "../groupes/birch-grove.html"
+        },
+        {
+          "name": "Bluff Point",
+          "image": "../../assets/img/bluff-point.jpg",
+          "time": "18:30 - 20:00",
+          "link": "../groupes/bluff-point.html"
+        },
+        {
+          "name": "Prairie Riders",
+          "image": "../../assets/img/prairie-riders.jpg",
+          "time": "16:30 - 18:00",
+          "link": "../groupes/prairie-riders.html"
+        }
+      ]
+    },
+    "Texane Sunset": {
+      "friday": [
+        {
+          "name": "Dusty Roads",
+          "image": "../../assets/img/dusty-roads.jpg",
+          "time": "13:00 - 14:30",
+          "link": "../groupes/dusty-roads.html"
+        },
+        {
+          "name": "Lucky Stars",
+          "image": "../../assets/img/lucky-stars.jpg",
+          "time": "15:00 - 16:30",
+          "link": "../groupes/lucky-stars.html"
+        },
+        {
+          "name": "Canyon Echoes",
+          "image": "../../assets/img/canyon-echoes.jpg",
+          "time": "17:00 - 18:30",
+          "link": "../groupes/canyon-echoes.html"
+        },
+        {
+          "name": "Rebel Ridge",
+          "image": "../../assets/img/rebel-ridge.jpg",
+          "time": "19:00 - 20:30",
+          "link": "../groupes/rebel-ridge.html"
+        },
+        {
+          "name": "Silver Horse",
+          "image": "../../assets/img/silver-horse.jpg",
+          "time": "21:00 - 22:30",
+          "link": "../groupes/silver-horse.html"
+        }
+      ],
+      "saturday": [
+        {
+          "name": "Pine Valley",
+          "image": "../../assets/img/pine-valley.jpg",
+          "time": "21:00 - 22:30",
+          "link": "../groupes/pine-valley.html"
+        },
+        {
+          "name": "Sunset Trail",
+          "image": "../../assets/img/sunset-trail.jpg",
+          "time": "17:00 - 18:30",
+          "link": "../groupes/sunset-trail.html"
+        },
+        {
+          "name": "Steel Horses",
+          "image": "../../assets/img/steel-horses.jpg",
+          "time": "13:00 - 14:30",
+          "link": "../groupes/steel-horses.html"
+        },
+        {
+          "name": "Rebel Prairie",
+          "image": "../../assets/img/rebel-prairie.jpg",
+          "time": "19:00 - 20:30",
+          "link": "../groupes/rebel-prairie.html"
+        },
+        {
+          "name": "Tumble Trouble",
+          "image": "../../assets/img/tumble-trouble.jpg",
+          "time": "16:30 - 18:00",
+          "link": "../groupes/tumble-trouble.html"
+        }
+      ],
+      "sunday": [
+        {
+          "name": "Briar Patch",
+          "image": "../../assets/img/briar-patch.jpg",
+          "time": "21:00 - 22:30",
+          "link": "../groupes/briar-patch.html"
+        },
+        {
+          "name": "Cooper Canyon",
+          "image": "../../assets/img/cooper-canyon.jpg",
+          "time": "14:00 - 15:30",
+          "link": "../groupes/cooper-canyon.html"
+        },
+        {
+          "name": "Dusty Trails",
+          "image": "../../assets/img/dusty-trails.jpg",
+          "time": "13:00 - 14:30",
+          "link": "../groupes/dusty-trails.html"
+        },
+        {
+          "name": "Rebel Trail",
+          "image": "../../assets/img/rebel-trail.jpg",
+          "time": "17:00 - 18:30",
+          "link": "../groupes/rebel-trail.html"
+        },
+        {
+          "name": "Yacht Club",
+          "image": "../../assets/img/yacht-club.jpg",
+          "time": "19:00 - 20:30",
+          "link": "../groupes/yacht-club.html"
+        }
+      ]
+    },
+    "Harmony Plaza": {
+      "friday": [
+        {
+          "name": "River Plains",
+          "image": "../../assets/img/river-plains.jpg",
+          "time": "17:30 - 19:00",
+          "link": "../groupes/river-plains.html"
+        },
+        {
+          "name": "Prairie Ghosts",
+          "image": "../../assets/img/prairie-ghost.jpg",
+          "time": "21:30 - 23:00",
+          "link": "../groupes/prairie-ghosts.html"
+        },
+        {
+          "name": "Outlaw Ridge",
+          "image": "../../assets/img/outlaw-ridge.jpg",
+          "time": "19:30 - 21:00",
+          "link": "../groupes/outlaw-ridge.html"
+        },
+        {
+          "name": "Frontier Spirit",
+          "image": "../../assets/img/frontier-spirit.jpg",
+          "time": "13:30 - 15:00",
+          "link": "../groupes/frontier-spirit.html"
+        },
+        {
+          "name": "Young Creek",
+          "image": "../../assets/img/young-creek.jpg",
+          "time": "15:30 - 17:00",
+          "link": "../groupes/young-creek.html"
+        }
+      ],
+      "saturday": [
+        {
+          "name": "High Noon",
+          "image": "../../assets/img/high-noon.jpg",
+          "time": "13:30 - 15:00",
+          "link": "../groupes/high-noon.html"
+        },
+        {
+          "name": "Thund Cowbo",
+          "image": "../../assets/img/thund-cowbo.jpg",
+          "time": "15:30 - 17:00",
+          "link": "../groupes/thund-cowbo.html"
+        },
+        {
+          "name": "Rusty Riders",
+          "image": "../../assets/img/rusty-riders.jpg",
+          "time": "21:30 - 23:00",
+          "link": "../groupes/rusty-riders.html"
+        },
+        {
+          "name": "Ocean Bluff",
+          "image": "../../assets/img/ocean-bluff.jpg",
+          "time": "17:30 - 19:00",
+          "link": "../groupes/ocean-bluff.html"
+        },
+        {
+          "name": "Golden Prairie",
+          "image": "../../assets/img/golden-prairie.jpg",
+          "time": "19:30 - 21:00",
+          "link": "../groupes/golden-prairie.html"
+        }
+      ],
+      "sunday": [
+        {
+          "name": "Wind Desert",
+          "image": "../../assets/img/wind-desert.jpg",
+          "time": "14:00 - 15:30",
+          "link": "../groupes/wind-desert.html"
+        },
+        {
+          "name": "Tiger Creek",
+          "image": "../../assets/img/tiger-creek.jpg",
+          "time": "13:30 - 15:00",
+          "link": "../groupes/tiger-creek.html"
+        },
+        {
+          "name": "Rocky Renega",
+          "image": "../../assets/img/rocky-renega.jpg",
+          "time": "15:30 - 17:00",
+          "link": "../groupes/rocky-renega.html"
+        },
+        {
+          "name": "High Plains",
+          "image": "../../assets/img/high-plains.jpg",
+          "time": "21:30 - 23:00",
+          "link": "../groupes/high-plains.html"
+        },
+        {
+          "name": "Desert Echoes",
+          "image": "../../assets/img/desert-echoes.jpg",
+          "time": "19:30 - 21:00",
+          "link": "../groupes/desert-echoes.html"
+        }
+      ]
+    },
+    "Moonlit Arena": {
+      "friday": [
+        {
+          "name": "Roam Rangers",
+          "image": "../../assets/img/roam-ranger.jpg",
+          "time": "22:00 - 23:30",
+          "link": "../groupes/roam-ranger.html"
+        },
+        {
+          "name": "Iron Horse",
+          "image": "../../assets/img/iron-horse.jpg",
+          "time": "14:00 - 15:30",
+          "link": "../groupes/iron-horse.html"
+        },
+        {
+          "name": "Eagle Creek",
+          "image": "../../assets/img/eagle-creek.jpg",
+          "time": "18:00 - 19:30",
+          "link": "../groupes/eagle-creek.html"
+        },
+        {
+          "name": "Copper Band",
+          "image": "../../assets/img/copper-band.jpg",
+          "time": "16:00 - 17:30",
+          "link": "../groupes/copper-band.html"
+        },
+        {
+          "name": "Happy Acres",
+          "image": "../../assets/img/happy-acres.jpg",
+          "time": "20:00 - 21:30",
+          "link": "../groupes/happy-acres.html"
+        }
+      ],
+      "saturday": [
+        {
+          "name": "Wilde Rebel",
+          "image": "../../assets/img/wilde-rebel.jpg",
+          "time": "14:00 - 15:30",
+          "link": "../groupes/wilde-rebel.html"
+        },
+        {
+          "name": "Cedar Hill",
+          "image": "../../assets/img/cedar-hill.jpg",
+          "time": "20:00 - 21:30",
+          "link": "../groupes/cedar-hill.html"
+        },
+        {
+          "name": "Creek Rebels",
+          "image": "../../assets/img/creek-rebels.jpg",
+          "time": "18:00 - 19:30",
+          "link": "../groupes/creek-rebels.html"
+        },
+        {
+          "name": "Mirage Band",
+          "image": "../../assets/img/mirage-band.jpg",
+          "time": "16:00 - 17:30",
+          "link": "../groupes/mirage-band.html"
+        },
+        {
+          "name": "Copper Trail",
+          "image": "../../assets/img/coper-trail.jpg",
+          "time": "22:00 - 23:30",
+          "link": "../groupes/coper-trail.html"
+        }
+      ],
+      "sunday": [
+        {
+            "name": "Silver Spur",
+            "image": "../../assets/img/silver-spur.jpg",
+            "time": "14:00 - 15:30",
+            "link": "../groupes/silver-spur.html"
+          },
+        {
+            "name": "Timber Falls",
+            "image": "../../assets/img/timber-falls.jpg",
+            "time": "20:00 - 21:30",
+            "link": "../groupes/timber-falls.html"
+          },
+        {
+            "name": "Canyon Cross",
+            "image": "../../assets/img/canyon-cross.jpg",
+            "time": "18:00 - 19:30",
+            "link": "../groupes/canyon-cross.html"
+          },
+        {
+            "name": "Outlaw Bandits",
+            "image": "../../assets/img/outlaw-bandits.jpg",
+            "time": "16:00 - 17:30",
+            "link": "../groupes/outlaw-bandits.html"
+          },
+        {
+            "name": "Frontier Harmony",
+            "image": "../../assets/img/frontier-harmony.jpg",
+            "time": "22:00 - 23:30",
+            "link": "../groupes/frontier-harmony.html"
+          }
+      ]
+    }
+  }
+  

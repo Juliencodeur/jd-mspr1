@@ -1,0 +1,42 @@
+{
+    "events": [
+      {
+        "day": "friday",
+        "groups": [
+          {
+            "name": "Alpines Echoes",
+            "stage": "Starlight Stage",
+            "time": "12:00 - 13:30",
+            "image": "/assets/img/Alpines-Echoes.jpg",
+            "link": "/groupes/alpine-echoes.html"
+          }
+        
+        ]
+      },
+      {
+        "day": "saturday",
+        "groups": [
+          {
+            "name": "Pine Valley",
+            "stage": "Texane Sunset",
+            "time": "21:00 - 22:30",
+            "image": "/assets/img/pine-valley.jpg",
+            "link": "/groupes/pine-valley.html"
+          }
+        ]
+      },
+      {
+        "day": "sunday",
+        "groups": [
+          {
+            "name": "Briar Patch",
+            "stage": "Texane Sunset",
+            "time": "21:00 - 22:30",
+            "image": "/assets/img/briar-patch.jpg",
+            "link": "/groupes/briar-patch.html"
+          }
+        ]
+      }
+    ]
+  }
+  
