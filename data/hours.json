@@ -1,0 +1,126 @@
+{
+    "friday": {
+      "accordion1": [
+        {
+          "time": "12:00 - 13:30",
+          "groups": [
+            {
+              "name": "Alpine Echoes",
+              "image": "../../assets/img/Alpines-Echoes.jpg",
+              "stage": "Starlight Stage",
+              "link": "../groupes/alpine-echoes.html"
+            }
+          ]
+        }
+      ],
+      "accordion2": [
+        {
+          "time": "15:00 - 16:30",
+          "groups": [
+            {
+              "name": "Golden Saddles",
+              "image": "../../assets/img/golden-saddles.jpg",
+              "stage": "Sunset Pavilion",
+              "link": "../groupes/golden-saddles.html"
+            }
+          ]
+        }
+      ],
+      "accordion3": [
+        {
+          "time": "19:00 - 20:30",
+          "groups": [
+            {
+              "name": "Rebel Ridge",
+              "image": "../../assets/img/rebel-ridge.jpg",
+              "stage": "Texane Sunset",
+              "link": "../groupes/rebel-ridge.html"
+            }
+          ]
+        }
+      ]
+    },
+    "saturday": {
+      "accordion1": [
+        {
+          "time": "12:00 - 13:30",
+          "groups": [
+            {
+              "name": "Painted Posse",
+              "image": "../../assets/img/painted-posse.jpg",
+              "stage": "Sunset Pavilion",
+              "link": "../groupes/painted-posse.html"
+            }
+          ]
+        }
+      ],
+      "accordion2": [
+        {
+          "time": "15:00 - 16:30",
+          "groups": [
+            {
+              "name": "Out Band",
+              "image": "../../assets/img/out-band.jpg",
+              "stage": "Harmony Plaza",
+              "link": "../groupes/out-band.html"
+            }
+          ]
+        }
+      ],
+      "accordion3": [
+        {
+          "time": "19:00 - 20:30",
+          "groups": [
+            {
+              "name": "Blue Sky",
+              "image": "../../assets/img/blue-sky.jpg",
+              "stage": "Moonlit Arena",
+              "link": "../groupes/blue-sky.html"
+            }
+          ]
+        }
+      ]
+    },
+    "sunday": {
+      "accordion1": [
+        {
+          "time": "12:00 - 13:30",
+          "groups": [
+            {
+              "name": "Sunrise Serenade",
+              "image": "../../assets/img/sunrise-serenade.jpg",
+              "stage": "Starlight Stage",
+              "link": "../groupes/sunrise-serenade.html"
+            }
+          ]
+        }
+      ],
+      "accordion2": [
+        {
+          "time": "15:00 - 16:30",
+          "groups": [
+            {
+              "name": "Western Stars",
+              "image": "../../assets/img/western-stars.jpg",
+              "stage": "Texane Sunset",
+              "link": "../groupes/western-stars.html"
+            }
+          ]
+        }
+      ],
+      "accordion3": [
+        {
+          "time": "19:00 - 20:30",
+          "groups": [
+            {
+              "name": "Silver Strings",
+              "image": "../../assets/img/silver-strings.jpg",
+              "stage": "Harmony Plaza",
+              "link": "../groupes/silver-strings.html"
+            }
+          ]
+        }
+      ]
+    }
+  }
+  
