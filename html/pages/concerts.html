@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Découvrez la programmation des concerts du Nation Sound Festival. Explorez les artistes, les horaires, et préparez-vous à vivre une expérience musicale inoubliable.">
+
+  <!-- SEO and Social Media Meta Tags -->
+  <meta property="og:title" content="Nation Sound Festival - Concerts">
+  <meta property="og:description" content="Découvrez les concerts du Nation Sound Festival, avec une programmation riche en artistes de renom. Ne manquez pas l'opportunité d'assister à des performances exceptionnelles.">
+  <meta property="og:image" content="../../assets/img/logo.png">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Nation Sound Festival - Concerts">
+  <meta name="twitter:description" content="Explorez la programmation des concerts du Nation Sound Festival et préparez-vous à vivre des moments musicaux mémorables.">
+  <meta name="twitter:image" content="../../assets/img/logo.png">
+
+  <!-- Favicon -->
+  <link rel="icon" href="../../assets/img/logo.png" type="image/x-icon">
+  <link rel="apple-touch-icon" href="../../assets/img/logo.png">
+
+  <!-- CSS Links -->
+  <link rel="stylesheet" href="../../css/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="../../css/navbar/navbar.css">
+  <link rel="stylesheet" href="../../css/concerts/concerts.css">
+  <link rel="stylesheet" href="../../css/row/row.css">
+  <link rel="stylesheet" href="../../css/colors/colors.css">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../css/fonts/fonts.css">
+
+  <!-- Title -->
+  <title>Concerts - Nation Sound Festival</title>
+</head>
+
+<body class="vh-100">
+  <!-- start navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg2-custom fixed-top">
+    <div class="container">
+      <!-- logo -->
+      <a class="navbar-brand fs-4" href="../../index.html"><img src="../../assets/img/logo.png" alt="Logo Festival">
+      </a>
+      <!-- toggle btn -->
+      <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- sidebar -->
+      <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel">
+        <!-- sidebar header-->
+        <div class="offcanvas-header text-white border-bottom">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Nation Sound</h5>
+          <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <!-- sidebar body -->
+        <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
+          <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
+            <li class="nav-item mx-2">
+              <a class="nav-link" aria-current="page" href="../../index.html">Infos</a>
+            </li>
+            <li class="nav-item dropdown mx-2">
+              <a class="nav-link dropdown-toggle" href="../../html/pages/programmation.html" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Programmation
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../../html/pages/dates.html">Dates</a></li>
+                <li><a class="dropdown-item" href="../../html/pages/heures.html">Heures</a></li>
+                <li><a class="dropdown-item" href="../../html/pages/lieux.html">Lieux</a></li>
+              </ul>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link active" href="../../html/pages/concerts.html">Concerts</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="../../html/pages/billetterie.html">Billetterie</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="../../html/pages/faq.html">FAQ</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="../../html/pages/carte.html">Carte</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="../../html/pages/reseaux-sociaux.html">Réseaux sociaux</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="../../html/pages/partenaires.html">Partenaires</a>
+            </li>
+          </ul>
+          <!-- login / sign up-->
+          <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3">
+            <a href="#login" class="text-white">Connexion</a>
+            <a href="#signup" class="text-white text-decoration-none px-3 py-1  rounded-4"
+              style="background-color: #0d5f1f;">S'enregistrer</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- end navbar -->
+
+  <!-- start content -->
+  <div class="container mt-5 pt-5">
+    <h1 class="text-center my-4 title">Planning des Concerts</h1>
+    <div class="table-responsive">
+      <table class="table table-bordered table-striped">
+        <thead class="thead-dark text-center">
+          <tr>
+            <th>Dates</th>
+            <th>Heures</th>
+            <th>Artistes</th>
+            <th>Lieu</th>
+          </tr>
+        </thead>
+        <tbody class="text-center">
+          <tr>
+            <td>Vendredi 18 Juillet 2025</td>
+            <td>12:00</td>
+            <td>Alpine Echoes</td>
+            <td>Starlight Stage</td>
+          </tr>
+          <tr>
+            <td>Vendredi 18 Juillet 2025</td>
+            <td>12:30</td>
+            <td>Wagon Wheels</td>
+            <td>Sunset Pavilion</td>
+          </tr>
+          <tr>
+            <td>Vendredi 18 Juillet 2025</td>
+            <td>13:00</td>
+            <td>Dusty Roads</td>
+            <td>Texane Sunset</td>
+          </tr>
+          <tr>
+            <td>Vendredi 18 Juillet 2025</td>
+            <td>13:30</td>
+            <td>Frontier Spirit</td>
+            <td>Harmony Plaza</td>
+          </tr>
+          <tr>
+            <td>Vendredi 18 Juillet 2025</td>
+            <td>14:00</td>
+            <td>Iron Horse</td>
+            <td>Moonlit Arena</td>
+          </tr>
+          <tr>
+            <td>Vendredi 18 Juillet 2025</td>
+            <td>14:00</td>
+            <td>Rusty Spurs</td>
+            <td>Starlight Stage</td>
+          </tr>
+          <tr>
+            <td>Vendredi 18 Juillet 2025</td>
+            <td>14:30</td>
+            <td>Whale Point</td>
+            <td>Sunset Pavilion</td>
+          </tr>
+          <tr>
+            <td>Vendredi 18 Juillet 2025</td>
+            <td>15:00</td>
+            <td>Lucky Stars</td>
+            <td>Texane Sunset</td>
+          </tr>
+          <tr>
+            <td>Vendredi 18 Juillet 2025</td>
+            <td>15:30</td>
+            <td>Young Creek</td>
+            <td>Harmony Plaza</td>
+          </tr>
+          <tr>
+            <td>Vendredi 18 Juillet 2025</td>
+            <td>16:00</td>
+            <td>Prairie Fire</td>
+            <td>Starlight Stage</td>
+          </tr>
+          <tr>
+            <td>Vendredi 18 Juillet 2025</td>
+            <td>16:00</td>
+            <td>Copper Band</td>
+            <td>Moonlit Arena</td>
+          </tr>
+          <tr>
+            <td>Vendredi 18 Juillet 2025</td>
+            <td>16:30</td>
+            <td>Lone Star</td>
+            <td>Sunset Pavilion</td>
+          </tr>
+          <tr>
+            <td>Vendredi 18 Juillet 2025</td>
+            <td>17:00</td>
+            <td>Canyon Echoes</td>
+            <td>Texane Sunset</td>
+          </tr>
+          <tr>
+            <td>Vendredi 18 Juillet 2025</td>
+            <td>17:30</td>
+            <td>River Plains</td>
+            <td>Harmony Plaza</td>
+          </tr>
+          <tr>
+            <td>Vendredi 18 Juillet 2025</td>
+            <td>18h00</td>
+            <td>Eagle Creek</td>
+            <td>Moonlit Arena</td>
+          </tr>
+          <tr>
+            <td>Vendredi 18 Juillet 2025</td>
+            <td>18h00</td>
+            <td>Maple Riders</td>
+            <td>Starlight Stage</td>
+          </tr>
+          <tr>
+            <td>Vendredi 18 Juillet 2025</td>
+            <td>18:30</td>
+            <td>Wisk River</td>
+            <td>Sunset Pavilion</td>
+          </tr>
+          <tr>
+            <td>Vendredi 18 Juillet 2025</td>
+            <td>19h00</td>
+            <td>Rebel Ridge</td>
+            <td>Texane Sunset</td>
+          </tr>
+          <tr>
+            <td>Vendredi 18 Juillet 2025</td>
+            <td>19:30</td>
+            <td>Outlaw Ridge</td>
+            <td>Harmony Plaza</td>
+          </tr>
+          <tr>
+            <td>Vendredi 18 Juillet 2025</td>
+            <td>20:00</td>
+            <td>Desert Moon</td>
+            <td>Starlight Stage</td>
+          </tr>
+          <tr>
+            <td>Vendredi 18 Juillet 2025</td>
+            <td>20:00</td>
+            <td>Happy Acres</td>
+            <td>Moonlit Arena</td>
+          </tr>
+          <tr>
+            <td>Vendredi 18 Juillet 2025</td>
+            <td>20:30</td>
+            <td>Twisted Trail</td>
+            <td>Sunset Pavilion</td>
+          </tr>
+          <tr>
+            <td>Vendredi 18 Juillet 2025</td>
+            <td>21:00</td>
+            <td>Silver Horse</td>
+            <td>Texane Sunset</td>
+          </tr>
+          <tr>
+            <td>Vendredi 18 Juillet 2025</td>
+            <td>21:30</td>
+            <td>Prairie Ghosts</td>
+            <td>Harmony Plaza</td>
+          </tr>
+          <tr>
+            <td>Vendredi 18 Juillet 2025</td>
+            <td>22:00</td>
+            <td>Roam Rangers</td>
+            <td>Moonlit Arena</td>
+          </tr>
+          <tr>
+            <td>Sammedi 19 Juillet 2025</td>
+            <td>12:00</td>
+            <td>Golden Saddles</td>
+            <td>Starlight Stage</td>
+          </tr>
+          <tr>
+            <td>Sammedi 19 Juillet 2025</td>
+            <td>12:30</td>
+            <td>Dust Bowl</td>
+            <td>Sunset Pavilion</td>
+          </tr>
+          <tr>
+            <td>Sammedi 19 Juillet 2025</td>
+            <td>13:00</td>
+            <td>Steel Horses</td>
+            <td>Texane Sunset</td>
+          </tr>
+          <tr>
+            <td>Sammedi 19 Juillet 2025</td>
+            <td>13:30</td>
+            <td>High Noon</td>
+            <td>Harmony Plaza</td>
+          </tr>
+          <tr>
+            <td>Sammedi 19 Juillet 2025</td>
+            <td>14:00</td>
+            <td>Coyote Creek</td>
+            <td>Starlight Stage</td>
+          </tr>
+          <tr>
+            <td>Sammedi 19 Juillet 2025</td>
+            <td>14:00</td>
+            <td>Wilde Rebel</td>
+            <td>Moonlit Arena</td>
+          </tr>
+          <tr>
+            <td>Sammedi 19 Juillet 2025</td>
+            <td>14:30</td>
+            <td>Sunny Brook</td>
+            <td>Sunset Pavilion</td>
+          </tr>
+          <tr>
+            <td>Sammedi 19 Juillet 2025</td>
+            <td>15:00</td>
+            <td>Copper County</td>
+            <td>Sunset Pavilion</td>
+          </tr>
+          <tr>
+            <td>Sammedi 19 Juillet 2025</td>
+            <td>15:30</td>
+            <td>Thund Cowbo</td>
+            <td>Harmony Plaza</td>
+          </tr>
+          <tr>
+            <td>Sammedi 19 Juillet 2025</td>
+            <td>16:00</td>
+            <td>Mirage Band</td>
+            <td>Moonlit Arena</td>
+          </tr>
+          <tr>
+            <td>Sammedi 19 Juillet 2025</td>
+            <td>16:00</td>
+            <td>Painted Drifters</td>
+            <td>Starlight Stage</td>
+          </tr>
+          <tr>
+            <td>Sammedi 19 Juillet 2025</td>
+            <td>16:30</td>
+            <td>Tumble Trouble</td>
+            <td>Texane Sunset</td>
+          </tr>
+          <tr>
+            <td>Sammedi 19 Juillet 2025</td>
+            <td>17:00</td>
+            <td>Sunset Trail</td>
+            <td>Texane Sunset</td>
+          </tr>
+          <tr>
+            <td>Sammedi 19 Juillet 2025</td>
+            <td>17:30</td>
+            <td>Ocean Bluff</td>
+            <td>Harmony Plaza</td>
+          </tr>
+          <tr>
+            <td>Sammedi 19 Juillet 2025</td>
+            <td>18:00</td>
+            <td>Sweet Grass</td>
+            <td>Starlight Stage</td>
+          </tr>
+          <tr>
+            <td>Sammedi 19 Juillet 2025</td>
+            <td>18:00</td>
+            <td>Creek Rebels</td>
+            <td>Moonlit Arena</td>
+          </tr>
+          <tr>
+            <td>Sammedi 19 Juillet 2025</td>
+            <td>18:30</td>
+            <td>Rocky Ridge</td>
+            <td>Sunset Pavilion</td>
+          </tr>
+          <tr>
+            <td>Sammedi 19 Juillet 2025</td>
+            <td>19:00</td>
+            <td>Rebel Prairie</td>
+            <td>Texane Sunset</td>
+          </tr>
+          <tr>
+            <td>Sammedi 19 Juillet 2025</td>
+            <td>19:30</td>
+            <td>Golden Prairie</td>
+            <td>Harmony Plaza</td>
+          </tr>
+          <tr>
+            <td>Sammedi 19 Juillet 2025</td>
+            <td>20:00</td>
+            <td>Cedar Hill</td>
+            <td>Moonlit Arena</td>
+          </tr>
+          <tr>
+            <td>Sammedi 19 Juillet 2025</td>
+            <td>20:00</td>
+            <td>Green Valley</td>
+            <td>Starlight Stage</td>
+          </tr>
+          <tr>
+            <td>Sammedi 19 Juillet 2025</td>
+            <td>20:30</td>
+            <td>Wild West</td>
+            <td>Sunset Pavilion</td>
+          </tr>
+          <tr>
+            <td>Sammedi 19 Juillet 2025</td>
+            <td>21:00</td>
+            <td>Pine Valley</td>
+            <td>Texane Sunset</td>
+          </tr>
+          <tr>
+            <td>Sammedi 19 Juillet 2025</td>
+            <td>21:30</td>
+            <td>Rusty Riders</td>
+            <td>Harmony Plaza</td>
+          </tr>
+          <tr>
+            <td>Sammedi 19 Juillet 2025</td>
+            <td>22:00</td>
+            <td>Copper Trail</td>
+            <td>Moonlit Arena</td>
+          </tr>
+          <tr>
+            <td>Dimanche 20 Juillet 2025</td>
+            <td>12:00</td>
+            <td>Painted Posse</td>
+            <td>Sunset Pavilion</td>
+          </tr>
+          <tr>
+            <td>Dimanche 20 Juillet 2025</td>
+            <td>12:00</td>
+            <td>Out Band</td>
+            <td>Starlight Stage</td>
+          </tr>
+          <tr>
+            <td>Dimanche 20 Juillet 2025</td>
+            <td>12:30</td>
+            <td>Trail Ridge</td>
+            <td>Sunset Pavilion</td>
+          </tr>
+          <tr>
+            <td>Dimanche 20 Juillet 2025</td>
+            <td>13:00</td>
+            <td>Dusty Trails</td>
+            <td>Texane Sunset</td>
+          </tr>
+          <tr>
+            <td>Dimanche 20 Juillet 2025</td>
+            <td>13:30</td>
+            <td>Tiger Creek</td>
+            <td>Harmony Plaza</td>
+          </tr>
+          <tr>
+            <td>Dimanche 20 Juillet 2025</td>
+            <td>14:00</td>
+            <td>Silver Spur</td>
+            <td>Moonlit Arena</td>
+          </tr>
+          <tr>
+            <td>Dimanche 20 Juillet 2025</td>
+            <td>14:00</td>
+            <td>Wind Desert</td>
+            <td>Harmony Plaza</td>
+          </tr>
+          <tr>
+            <td>Dimanche 20 Juillet 2025</td>
+            <td>14:00</td>
+            <td>Cooper Canyon</td>
+            <td>Texane Sunset</td>
+          </tr>
+          <tr>
+            <td>Dimanche 20 Juillet 2025</td>
+            <td>14:00</td>
+            <td>Tango Field</td>
+            <td>Starlight Stage</td>
+          </tr>
+          <tr>
+            <td>Dimanche 20 Juillet 2025</td>
+            <td>14:30</td>
+            <td>Midnight Outlaws</td>
+            <td>Sunset Pavilion</td>
+          </tr>
+          <tr>
+            <td>Dimanche 20 Juillet 2025</td>
+            <td>15:00</td>
+            <td>Yellow Stone</td>
+            <td>Starlight Stage</td>
+          </tr>
+          <tr>
+            <td>Dimanche 20 Juillet 2025</td>
+            <td>15:30</td>
+            <td>Rocky Renega</td>
+            <td>Harmony Plaza</td>
+          </tr>
+          <tr>
+            <td>Dimanche 20 Juillet 2025</td>
+            <td>16:00</td>
+            <td>Outlaw Bandits</td>
+            <td>Moonlit Arena</td>
+          </tr>
+          <tr>
+            <td>Dimanche 20 Juillet 2025</td>
+            <td>16:30</td>
+            <td>Prairie Riders</td>
+            <td>Sunset Pavilion</td>
+          </tr>
+          <tr>
+            <td>Dimanche 20 Juillet 2025</td>
+            <td>17:00</td>
+            <td>Rebel Trail</td>
+            <td>Texane Sunset</td>
+          </tr>
+          <tr>
+            <td>Dimanche 20 Juillet 2025</td>
+            <td>17:30</td>
+            <td>Tidal Wave</td>
+            <td>Starlight Stage</td>
+          </tr>
+          <tr>
+            <td>Dimanche 20 Juillet 2025</td>
+            <td>18:00</td>
+            <td>Canyon Cross</td>
+            <td>Moonlit Arena</td>
+          </tr>
+          <tr>
+            <td>Dimanche 20 Juillet 2025</td>
+            <td>18:30</td>
+            <td>Bluff Point</td>
+            <td>Sunset Pavilion</td>
+          </tr>
+          <tr>
+            <td>Dimanche 20 Juillet 2025</td>
+            <td>19:00</td>
+            <td>Yacht Club</td>
+            <td>Texane Sunset</td>
+          </tr>
+          <tr>
+            <td>Dimanche 20 Juillet 2025</td>
+            <td>19:30</td>
+            <td>Desert Echoes</td>
+            <td>Harmony Plaza</td>
+          </tr>
+          <tr>
+            <td>Dimanche 20 Juillet 2025</td>
+            <td>20:00</td>
+            <td>Timber Falls</td>
+            <td>Moonlit Arena</td>
+          </tr>
+          <tr>
+            <td>Dimanche 20 Juillet 2025</td>
+            <td>20:30</td>
+            <td>Rusted Rails</td>
+            <td>Starlight Stage</td>
+          </tr>
+          <tr>
+            <td>Dimanche 20 Juillet 2025</td>
+            <td>21:00</td>
+            <td>Briar Patch</td>
+            <td>Texane Sunset</td>
+          </tr>
+          <tr>
+            <td>Dimanche 20 Juillet 2025</td>
+            <td>21:30</td>
+            <td>High Plains</td>
+            <td>Scène Principale</td>
+          </tr>
+          <tr>
+            <td>Dimanche 20 Juillet 2025</td>
+            <td>22: 00</td>
+            <td>Frontier Harmony</td>
+            <td>Moonlit Arena</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <!-- end content -->
+
+  <!-- start footer -->
+  <footer class="bg-dark text-white pt-3 pb-3">
+    <div class="container text-center text-md-left">
+      <!-- Newsletter Form -->
+      <div class="row justify-content-center mb-4">
+        <div class="col-md-6">
+          <h5 class="text-uppercase fw-bold mb-3">Abonnez-vous à notre newsletter</h5>
+          <form class="d-flex">
+            <input type="email" class="form-control me-2" placeholder="Votre email" aria-label="Email" required>
+            <button class="btn btn-outline-light" type="submit">S'abonner</button>
+          </form>
+          <small class="form-text text-muted mt-2">Recevez les dernières nouvelles et mises à jour du festival.</small>
+        </div>
+      </div>
+      <!-- End Newsletter Form -->
+
+      <div class="row text-center text-md-left">
+
+        <!-- About Us -->
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold" style="color: #108d2b;">Contactez-nous</h5>
+          <p>Email: info@Nation Sound-melody-festival</p>
+          <p>Tél: +33 7 01 10 02 20</p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold" style="color: #108d2b;">Liens rapides</h5>
+          <p><a href="../../index.html" class="text-white" style="text-decoration: none;">Informations</a></p>
+          <p><a href="../../html/pages/concerts.html" class="text-white" style="text-decoration: none;">Concerts</a></p>
+          <p><a href="../../html/pages/billetterie.html" class="text-white" style="text-decoration: none;">Billetterie</a>
+          <p><a href="../../html/pages/faq.html" class="text-white" style="text-decoration: none;">FAQ</a>
+          <p><a href="../../html/pages/carte.html" class="text-white" style="text-decoration: none;">Carte</a>
+          <p><a href="../../html/pages/partenaires.html" class="text-white"
+              style="text-decoration: none;">Partenaires</a>
+          </p>
+        </div>
+
+        <!-- Social Media -->
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold" style="color: #108d2b;">Suivez-nous</h5>
+          <a href="https://www.facebook.com/" target="_blank"><img width="48" height="48"
+              src="https://img.icons8.com/color/48/facebook-new.png" alt="facebook-new" /></a>
+          <a href="https://x.com/?lang=fr" target="_blank"><img width="48" height="48"
+              src="https://img.icons8.com/fluency/48/twitterx--v1.png" alt="twitterx--v1" /></a>
+          <a href="https://www.instagram.com" target="_blank"><img width="48" height="48"
+              src="https://img.icons8.com/color/48/instagram-new--v1.png" alt="instagram-new--v1" /></a>
+          <a href="https://www.youtube.com/" target="_blank"><img width="48" height="48"
+              src="https://img.icons8.com/color/48/youtube-play.png" alt="youtube-play" /></a>
+          <a href="https://www.snapchat.com/fr-FR" target="_blank"><img width="48" height="48"
+              src="https://img.icons8.com/fluency/48/snapchat.png" alt="snapchat" /></a>
+          <a href="https://fr.linkedin.com" target="_blank"><img width="48" height="48"
+              src="https://img.icons8.com/color/48/linkedin.png" alt="linkedin" /></a>
+        </div>
+      </div>
+
+      <hr class="mb-4">
+
+      <div class="row align-items-center">
+        <div class="footer-bottom">
+          <div class="container">
+            <p class="text-center">© 2024 Nation Sound</p>
+            <p class="text-center"><a href="../../html/footer/mentions-legales.html" target="_blank">Mentions
+                légales</a> |
+              <a href="../../html/footer/privacy.html" target="_blank">Politique de confidentialité</a>
+            </p>
+          </div>
+        </div>
+
+
+        <div class="col-md-5 col-lg-4">
+          <div class="text-center text-md-right">
+            <ul class="list-unstyled list-inline">
+              <li class="list-inline-item">
+                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                    class="fab fa-facebook"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                    class="fab fa-twitter"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                    class="fab fa-google"></i></a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i
+                    class="fab fa-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- end footer -->
+  <!-- start row --> 
+  <button onclick="topFunction()" id="myBtn" title="Go to top">
+    <img src="https://img.icons8.com/material-outlined/24/circled-chevron-up.png" alt="circled-chevron-up"/>
+  </button>
+  <!-- end row -->
+  <!-- start script js -->
+  <script src="../../js/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="../../js/row/row.js"></script>
+</body>
+
+</html>
