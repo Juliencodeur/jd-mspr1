@@ -1,0 +1,132 @@
+[
+    {
+      "nom": "Entrée",
+      "lat": 48.85904,
+      "lng": 2.23224,
+      "description": "Main Entrance",
+      "categorie": "Entrée",
+      "iconUrl": "https://img.icons8.com/color/48/login-rounded-right.png"
+    },
+    {
+      "nom": "Billetterie",
+      "lat": 48.859,
+      "lng": 2.2326,
+      "description": "Billetterie principale",
+      "categorie": "Billetterie",
+      "iconUrl": "https://img.icons8.com/color/48/ticket.png"
+    },
+    {
+      "nom": "Snacks",
+      "lat": 48.85682,
+      "lng": 2.23154,
+      "description": "Snacks ouverts de 12:00 à 22:30",
+      "categorie": "Snacks",
+      "iconUrl": "https://img.icons8.com/color/48/french-fries.png"
+    },
+    {
+      "nom": "Snacks",
+      "lat": 48.86056,
+      "lng": 2.23392,
+      "description": "Snacks ouverts de 12:00 à 22:30",
+      "categorie": "Snacks",
+      "iconUrl": "https://img.icons8.com/color/48/french-fries.png"
+    },
+    {
+      "nom": "Buvette",
+      "lat": 48.85828,
+      "lng": 2.23362,
+      "description": "Buvette ouverte de 12:00 à 22:30",
+      "categorie": "Buvettes",
+      "iconUrl": "https://img.icons8.com/color/48/bar-counter.png"
+    },
+    {
+      "nom": "Informations",
+      "lat": 48.86004,
+      "lng": 2.23328,
+      "description": "Point d'informations",
+      "categorie": "Informations",
+      "iconUrl": "https://img.icons8.com/color/48/information.png"
+    },
+    {
+      "nom": "Camping",
+      "lat": 48.85497,
+      "lng": 2.23815,
+      "description": "Camping - Pensez à vous enregistrer avant la fin des concerts",
+      "categorie": "Camping",
+      "iconUrl": "https://img.icons8.com/color/48/campsite.png"
+    },
+    {
+      "nom": "Restaurant",
+      "lat": 48.85837,
+      "lng": 2.23255,
+      "description": "Restaurant principal",
+      "categorie": "Restaurant",
+      "iconUrl": "https://img.icons8.com/color/48/restaurant.png"
+    },
+    {
+      "nom": "Starlight Stage",
+      "lat": 48.86166,
+      "lng": 2.23468,
+      "description": "Starlight Stage - Voir la liste des artistes <a href='../../html/pages/lieux.html'>ici</a>",
+      "categorie": "Scènes",
+      "iconUrl": "https://img.icons8.com/fluency/48/music-festival.png"
+    },
+    {
+      "nom": "Toilettes",
+      "lat": 48.86159,
+      "lng": 2.23565,
+      "description": "Toilettes disponibles",
+      "categorie": "Toilettes",
+      "iconUrl": "https://img.icons8.com/color/48/toilet.png"
+    },
+    {
+      "nom": "Souvenirs",
+      "lat": 48.85809,
+      "lng": 2.23412,
+      "description": "Stand de souvenirs - Ouvert de 14:00 à 22:30",
+      "categorie": "Stands souvenirs",
+      "iconUrl": "https://img.icons8.com/color/48/gift.png"
+    },
+    {
+      "nom": "Secours",
+      "lat": 48.85829,
+      "lng": 2.23309,
+      "description": "Poste de secours",
+      "categorie": "Secours",
+      "iconUrl": "https://img.icons8.com/color/48/doctors-bag.png"
+    },
+    {
+      "nom": "Sunset Pavilion",
+      "lat": 48.85518,
+      "lng": 2.23233,
+      "description": "Sunset Pavilion - Voir la liste des artistes <a href='../../html/pages/lieux.html'>ici</a>",
+      "categorie": "Scènes",
+      "iconUrl": "https://img.icons8.com/fluency/48/music-festival.png"
+    },
+    {
+      "nom": "Texane Sunset",
+      "lat": 48.85695,
+      "lng": 2.23607,
+      "description": "Texane Sunset - Voir la liste des artistes <a href='../../html/pages/lieux.html'>ici</a>",
+      "categorie": "Scènes",
+      "iconUrl": "https://img.icons8.com/fluency/48/music-festival.png"
+    },
+    {
+      "nom": "Harmony Plaza",
+      "lat": 48.85437,
+      "lng": 2.23658,
+      "description": "Harmony Plaza - Voir la liste des artistes <a href='../../html/pages/lieux.html'>ici</a>",
+      "categorie": "Scènes",
+      "iconUrl": "https://img.icons8.com/fluency/48/music-festival.png"
+    },
+    {
+      "nom": "Moonlit Arena",
+      "lat": 48.85363,
+      "lng": 2.23337,
+      "description": "Moonlit Arena - Voir la liste des artistes <a href='../../html/pages/lieux.html'>ici</a>",
+      "categorie": "Scènes",
+      "iconUrl": "https://img.icons8.com/fluency/48/music-festival.png"
+    }
+    
+  ]
+  
