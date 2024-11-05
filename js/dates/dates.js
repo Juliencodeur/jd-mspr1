@@ -1,6 +1,6 @@
 let eventsData = {}; // Stockage des données JSON
 
-// Étape 1 : Fonction pour charger le JSON et vérifier le chargement dans la console
+// Fonction pour charger les données JSON et initialiser l'affichage
 function loadJSON() {
   fetch('../../data/dates.json')
     .then(response => {
@@ -10,22 +10,23 @@ function loadJSON() {
     .then(data => {
       console.log("Données JSON chargées :", data); // Vérification du JSON chargé
       eventsData = data;
-      renderCards(); // Passer à l'affichage des cartes après chargement
+      renderCards(); // Affichage des cartes après le chargement
+      loadSelectedDay(); // Charger le jour sauvegardé
     })
     .catch(error => console.error("Erreur lors du chargement du JSON:", error));
 }
 
-// Étape 2 : Fonction pour afficher les cartes basées sur les données JSON
+// Fonction pour afficher les cartes en fonction des données JSON
 function renderCards() {
   let container = document.getElementById('cards-container');
-  container.innerHTML = ''; // Réinitialiser le contenu existant du conteneur
+  container.innerHTML = ''; // Réinitialiser le contenu du conteneur
 
   if (!eventsData.events) {
-    console.error("Pas de données dans eventsData"); // Vérification que les données JSON sont correctes
+    console.error("Pas de données dans eventsData");
     return;
   }
 
-  // Affichage des cartes pour chaque jour et groupe dans le JSON
+  // Générer les cartes pour chaque jour et chaque groupe
   eventsData.events.forEach(dayEvent => {
     dayEvent.groups.forEach(group => {
       let card = `
@@ -43,23 +44,32 @@ function renderCards() {
         </div>
       `;
       container.insertAdjacentHTML('beforeend', card);
-      console.log(`Carte ajoutée pour le groupe: ${group.name} sous le jour ${dayEvent.day}`); // Débogage pour chaque carte ajoutée
     });
   });
-
-  showCards('friday'); // Affiche uniquement le jour par défaut (vendredi)
 }
 
-// Étape 3 : Fonction d'affichage pour montrer uniquement les cartes du jour sélectionné
+// Fonction pour sauvegarder le jour sélectionné dans localStorage et afficher les cartes
+function saveSelectedDay(day) {
+  localStorage.setItem('selectedDay', day);
+  showCards(day);
+}
+
+// Fonction pour afficher uniquement les cartes du jour sélectionné
 function showCards(day) {
-  let days = ['friday', 'saturday', 'sunday'];
+  const days = ['friday', 'saturday', 'sunday'];
   days.forEach(d => {
-    let cards = document.querySelectorAll('.' + d);
+    const cards = document.querySelectorAll('.' + d);
     cards.forEach(card => {
       card.style.display = (d === day) ? 'block' : 'none';
     });
   });
 }
 
-// Appel de la fonction pour charger et afficher les données JSON
+// Fonction pour charger le jour sélectionné à partir de localStorage
+function loadSelectedDay() {
+  const savedDay = localStorage.getItem('selectedDay') || 'friday';
+  showCards(savedDay);
+}
+
+// Initialiser l'affichage au chargement du DOM
 document.addEventListener('DOMContentLoaded', loadJSON);
