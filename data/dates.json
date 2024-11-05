@@ -7,21 +7,356 @@
             "name": "Alpines Echoes",
             "stage": "Starlight Stage",
             "time": "12:00 - 13:30",
-            "image": "/assets/img/Alpines-Echoes.jpg",
-            "link": "/groupes/alpine-echoes.html"
+            "image": "../../assets/img/Alpines-Echoes.jpg",
+            "link": "../groupes/alpine-echoes.html"
+          },
+          {
+            "name": "Wagon Wheels",
+            "stage": "Sunset Pavilion",
+            "time": "12:30 - 14:00",
+            "image": "../../assets/img/wagon-wheels.jpg",
+            "link": "../groupes/wagon-wheels.html"
+          },
+          {
+            "name": "Dusty <br>Roads",
+            "stage": "Texane Sunset",
+            "time": "13:00 - 14:30",
+            "image": "../../assets/img/dusty-roads.jpg",
+            "link": "../groupes/dusty-roads.html"
+          },
+          {
+            "name": "River <br>Plains",
+            "stage": "Harmony Plaza",
+            "time": "17:30 - 19:00",
+            "image": "../../assets/img/river-plains.jpg",
+            "link": "../groupes/river-plains.html"
+          },
+          {
+            "name": "Roam <br>Ranger",
+            "stage": "Moonlit Arena",
+            "time": "22:00 - 23:30",
+            "image": "../../assets/img/roam-ranger.jpg",
+            "link": "../groupes/roam-ranger.html"
+          },
+          {
+            "name": "Iron <br>Horse",
+            "stage": "Moonlit Arena",
+            "time": "14:00 - 15:30",
+            "image": "../../assets/img/iron-horse.jpg",
+            "link": "../groupes/iron-horse.html"
+          },
+          {
+            "name": "Desert <br>Moon",
+            "stage": "Starlight Stage",
+            "time": "20:00 - 21:30",
+            "image": "../../assets/img/desert-moonshine.jpg",
+            "link": "../groupes/desert-moon.html"
+          },
+          {
+            "name": "Prairie <br>Fire",
+            "stage": "Starlight Stage",
+            "time": "16:00 - 17:30",
+            "image": "../../assets/img/prairie-fire.jpg",
+            "link": "../groupes/prairie-fire.html"
+          },
+          {
+            "name": "Eagle <br>Creek",
+            "stage": "Moonlit Arena",
+            "time": "18:00 - 19:30",
+            "image": "../../assets/img/eagle-creek.jpg",
+            "link": "../groupes/eagle-creek.html"
+          },
+          {
+            "name": "Lucky <br>Stars",
+            "stage": "Texane Sunset",
+            "time": "15:00 - 16:30",
+            "image": "../../assets/img/lucky-stars.jpg",
+            "link": "../groupes/lucky-stars.html"
+          },
+          {
+            "name": "Prairie <br>Ghosts",
+            "stage": "Harmony Plaza",
+            "time": "21:30 - 23:00",
+            "image": "../../assets/img/prairie-ghost.jpg",
+            "link": "../groupes/prairie-ghosts.html"
+          },
+          {
+            "name": "Copper <br>Band",
+            "stage": "Moonlit Arena",
+            "time": "16:00 - 17:30",
+            "image": "../../assets/img/copper-band.jpg",
+            "link": "../groupes/copper-band.html"
+          },
+          {
+            "name": "Maple <br>Riders",
+            "stage": "Starlight Stage",
+            "time": "18:00 - 19:30",
+            "image": "../../assets/img/maple-riders.jpg",
+            "link": "../groupes/maple-riders.html"
+          },
+          {
+            "name": "Lone <br>Star",
+            "stage": "Sunset Pavilion",
+            "time": "16:30 - 18:00",
+            "image": "../../assets/img/lone-star.jpg",
+            "link": "../groupes/lone-star.html"
+          },
+          {
+            "name": "Canyon <br>Echoes",
+            "stage": "Texane Sunset",
+            "time": "17:00 - 18:30",
+            "image": "../../assets/img/canyon-echoes.jpg",
+            "link": "../groupes/canyon-echoes.html"
+          },
+          {
+            "name": "Rusty <br>Spurs",
+            "stage": "Starlight Stage",
+            "time": "14:00 - 15:30",
+            "image": "../../assets/img/rusty-spurs.jpg",
+            "link": "../groupes/rusty-spurs.html"
+          },
+          {
+            "name": "Outlaw <br>Ridge",
+            "stage": "Harmony Plaza",
+            "time": "19:30 - 21:00",
+            "image": "../../assets/img/outlaw-ridge.jpg",
+            "link": "../groupes/outlaw-ridge.html"
+          },
+          {
+            "name": "Happy <br>Acres",
+            "stage": "Moonlit Arena",
+            "time": "20:00 - 21:30",
+            "image": "../../assets/img/happy-acres.jpg",
+            "link": "../groupes/happy-acres.html"
+          },
+          {
+            "name": "Twisted <br>Trail",
+            "stage": "Sunset Pavilion",
+            "time": "20:30 - 22:00",
+            "image": "../../assets/img/twisted-trail.jpg",
+            "link": "../groupes/twisted-trail.html"
+          },
+          {
+            "name": "Frontier <br>Spirit",
+            "stage": "Harmony Plaza",
+            "time": "13:30 - 15:00",
+            "image": "../../assets/img/frontier-spirit.jpg",
+            "link": "../groupes/frontier-spirit.html"
+          },
+          {
+            "name": "Rebel <br>Ridge",
+            "stage": "Texane Sunset",
+            "time": "19:00 - 20:30",
+            "image": "../../assets/img/rebel-ridge.jpg",
+            "link": "../groupes/rebel-ridge.html"
+          },
+          {
+            "name": "Wisk <br>River",
+            "stage": "Sunset Pavilion",
+            "time": "18:30 - 20:00",
+            "image": "../../assets/img/Whisk-River.jpg",
+            "link": "../groupes/wisk-river.html"
+          },
+          {
+            "name": "Silver <br>Horse",
+            "stage": "Sunset Pavilion",
+            "time": "21:00 - 22:30",
+            "image": "../../assets/img/silver-horse.jpg",
+            "link": "../groupes/silver-horse.html"
+          },
+          {
+            "name": "Whale <br>Point",
+            "stage": "Sunset Pavilion",
+            "time": "14:30 - 16:00",
+            "image": "../../assets/img/whale-point.jpg",
+            "link": "../groupes/whale-point.html"
+          },
+          {
+            "name": "Young <br>Creek",
+            "stage": "Harmony Plaza",
+            "time": "15:30 - 17:00",
+            "image": "../../assets/img/young-creek.jpg",
+            "link": "../groupes/young-creek.html"
           }
-        
         ]
       },
       {
         "day": "saturday",
         "groups": [
           {
-            "name": "Pine Valley",
+            "name": "Pine <br>Valley",
             "stage": "Texane Sunset",
             "time": "21:00 - 22:30",
-            "image": "/assets/img/pine-valley.jpg",
-            "link": "/groupes/pine-valley.html"
+            "image": "../../assets/img/pine-valley.jpg",
+            "link": "../groupes/pine-valley.html"
+          },
+          {
+            "name": "Wilde <br>Rebel",
+            "stage": "Moonlit Arena",
+            "time": "14:00 - 15:30",
+            "image": "../../assets/img/wilde-rebel.jpg",
+            "link": "../groupes/wilde-rebel.html"
+          },
+          {
+            "name": "Sunset <br>Trail",
+            "stage": "Texane Sunset",
+            "time": "17:00 - 18:30",
+            "image": "../../assets/img/sunset-trail.jpg",
+            "link": "../groupes/sunset-trail.html"
+          },
+          {
+            "name": "Dust <br>Bowl",
+            "stage": "Sunset Pavilion",
+            "time": "12:30 - 14:00",
+            "image": "../../assets/img/dust-bowl.jpg",
+            "link": "../groupes/dust-bowl.html"
+          },
+          {
+            "name": "Sweet <br>Grass",
+            "stage": "Starlight Stage",
+            "time": "18:00 - 19:30",
+            "image": "../../assets/img/sweet-grass.jpg",
+            "link": "../groupes/sweet-grass.html"
+          },
+          {
+            "name": "Golden <br>Saddles",
+            "stage": "Starlight Stage",
+            "time": "12:00 - 13:30",
+            "image": "../../assets/img/golden-saddles.jpg",
+            "link": "../groupes/golden-saddles.html"
+          },
+          {
+            "name": "High <br>Noon",
+            "stage": "Harmony Plaza",
+            "time": "13:30 - 15:00",
+            "image": "../../assets/img/high-noon.jpg",
+            "link": "../groupes/high-noon.html"
+          },
+          {
+            "name": "Thund <br>Cowbo",
+            "stage": "Harmony Plaza",
+            "time": "15:30 - 17:00",
+            "image": "../../assets/img/thund-cowbo.jpg",
+            "link": "../groupes/thund-cowbo.html"
+          },
+          {
+            "name": "Cedar <br>Hill",
+            "stage": "Moonlit Arena",
+            "time": "20:00 - 21:30",
+            "image": "../../assets/img/cedar-hill.jpg",
+            "link": "../groupes/cedar-hill.html"
+          },
+          {
+            "name": "Green <br>Valley",
+            "stage": "Starlight Stage",
+            "time": "20:00 - 21:30",
+            "image": "../../assets/img/green-valley.jpg",
+            "link": "../groupes/green-valley.html"
+          },
+          {
+            "name": "Sunny <br>Brook",
+            "stage": "Sunset Pavilion",
+            "time": "14:30 - 16:00",
+            "image": "../../assets/img/sunny-brook.jpg",
+            "link": "../groupes/sunny-brook.html"
+          },
+          {
+            "name": "Creek <br>Rebels",
+            "stage": "Moonlit Arena",
+            "time": "18:00 - 19:30",
+            "image": "../../assets/img/creek-rebels.jpg",
+            "link": "../groupes/creek-rebels.html"
+          },
+          {
+            "name": "Rusty <br>Riders",
+            "stage": "Harmony Plaza",
+            "time": "21:30 - 23:00",
+            "image": "../../assets/img/rusty-riders.jpg",
+            "link": "../groupes/rusty-riders.html"
+          },
+          {
+            "name": "Coyote <br>Creek",
+            "stage": "Starlight Stage",
+            "time": "14:00 - 15:30",
+            "image": "../../assets/img/coyote-creek.jpg",
+            "link": "../groupes/coyote-creek.html"
+          },
+          {
+            "name": "Steel <br>Horses",
+            "stage": "Texane Sunset",
+            "time": "13:00 - 14:30",
+            "image": "../../assets/img/steel-horses.jpg",
+            "link": "../groupes/steel-horses.html"
+          },
+          {
+            "name": "Mirage <br>Band",
+            "stage": "Moonlit Arena",
+            "time": "16:00 - 17:30",
+            "image": "../../assets/img/mirage-band.jpg",
+            "link": "../groupes/mirage-band.html"
+          },
+          {
+            "name": "Ocean <br>Bluff",
+            "stage": "Harmony Plaza",
+            "time": "17:30 - 19:00",
+            "image": "../../assets/img/ocean-bluff.jpg",
+            "link": "../groupes/ocean-bluff.html"
+          },
+          {
+            "name": "Copper <br>Trail",
+            "stage": "Moonlit Arena",
+            "time": "22:00 - 23:30",
+            "image": "../../assets/img/coper-trail.jpg",
+            "link": "../groupes/coper-trail.html"
+          },
+          {
+            "name": "Rebel <br>Prairie",
+            "stage": "Texane Sunset",
+            "time": "19:00 - 20:30",
+            "image": "../../assets/img/rebel-prairie.jpg",
+            "link": "../groupes/rebel-prairie.html"
+          },
+          {
+            "name": "Wild <br>West",
+            "stage": "Sunset Pavilion",
+            "time": "20:30 - 22:00",
+            "image": "../../assets/img/wild-west.jpg",
+            "link": "../groupes/wild-west.html"
+          },
+          {
+            "name": "Copper <br>County",
+            "stage": "Sunset Pavilion",
+            "time": "15:00 - 16:30",
+            "image": "../../assets/img/copper-country.jpg",
+            "link": "../groupes/copper-country.html"
+          },
+          {
+            "name": "Painted <br>Drifters",
+            "stage": "Starlight Stage",
+            "time": "16:00 - 17:30",
+            "image": "../../assets/img/painted-drifters.jpg",
+            "link": "../groupes/painted-drifters.html"
+          },
+          {
+            "name": "Rocky <br>Ridge",
+            "stage": "Sunset Pavilion",
+            "time": "18:30 - 20:00",
+            "image": "../../assets/img/rocky-ridge.jpg",
+            "link": "../groupes/rocky-ridge.html"
+          },
+          {
+            "name": "Golden <br>Prairie",
+            "stage": "Harmony Plaza",
+            "time": "19:30 - 21:00",
+            "image": "../../assets/img/golden-prairie.jpg",
+            "link": "../groupes/golden-prairie.html"
+          },
+          {
+            "name": "Tumble Trouble",
+            "stage": "Texane Sunset",
+            "time": "16:30 - 18:00",
+            "image": "../../assets/img/tumble-trouble.jpg",
+            "link": "../groupes/tumble-trouble.html"
           }
         ]
       },
@@ -29,11 +364,179 @@
         "day": "sunday",
         "groups": [
           {
-            "name": "Briar Patch",
+            "name": "Briar <br>Patch",
             "stage": "Texane Sunset",
             "time": "21:00 - 22:30",
-            "image": "/assets/img/briar-patch.jpg",
-            "link": "/groupes/briar-patch.html"
+            "image": "../../assets/img/briar-patch.jpg",
+            "link": "../groupes/briar-patch.html"
+          },
+          {
+            "name": "Silver <br>Spur",
+            "stage": "Moonlit Arena",
+            "time": "14:00 - 15:30",
+            "image": "../../assets/img/silver-spur.jpg",
+            "link": "../groupes/silver-spur.html"
+          },
+          {
+            "name": "Wind <br>Desert",
+            "stage": "Harmony Plaza",
+            "time": "14:00 - 15:30",
+            "image": "../../assets/img/wind-desert.jpg",
+            "link": "../groupes/wind-desert.html"
+          },
+          {
+            "name": "Cooper <br>Canyon",
+            "stage": "Texane Sunset",
+            "time": "14:00 - 15:30",
+            "image": "../../assets/img/cooper-canyon.jpg",
+            "link": "../groupes/cooper-canyon.html"
+          },
+          {
+            "name": "Out <br>Band",
+            "stage": "Starlight Stage",
+            "time": "12:00 - 13:30",
+            "image": "../../assets/img/out-band.jpg",
+            "link": "../groupes/out-band.html"
+          },
+          {
+            "name": "Painted <br>Posse",
+            "stage": "Sunset Pavilion",
+            "time": "12:00 - 13:30",
+            "image": "../../assets/img/painted-posse.jpg",
+            "link": "../groupes/painted-posse.html"
+          },
+          {
+            "name": "Timber <br>Falls",
+            "stage": "Moonlit Arena",
+            "time": "20:00 - 21:30",
+            "image": "../../assets/img/timber-falls.jpg",
+            "link": "../groupes/timber-falls.html"
+          },
+          {
+            "name": "Tiger <br>Creek",
+            "stage": "Harmony Plaza",
+            "time": "13:30 - 15:00",
+            "image": "../../assets/img/tiger-creek.jpg",
+            "link": "../groupes/tiger-creek.html"
+          },
+          {
+            "name": "Trail <br>Ridge",
+            "stage": "Sunset Pavilion",
+            "time": "12:30 - 14:00",
+            "image": "../../assets/img/trail-ridge.jpg",
+            "link": "../groupes/trail-ridge.html"
+          },
+          {
+            "name": "Tango <br>Field",
+            "stage": "Starlight Stage",
+            "time": "14:00 - 15:30",
+            "image": "../../assets/img/tango-field.jpg",
+            "link": "../groupes/tango-field.html"
+          },
+          {
+            "name": "Dusty <br>Trails",
+            "stage": "Texane Sunset",
+            "time": "13:00 - 14:30",
+            "image": "../../assets/img/dusty-trails.jpg",
+            "link": "../groupes/dusty-trails.html"
+          },
+          {
+            "name": "Rusted <br>Rails",
+            "stage": "Starlight Stage",
+            "time": "20:30 - 22:00",
+            "image": "../../assets/img/rusted-rails.jpg",
+            "link": "../groupes/rusted-rails.html"
+          },
+          {
+            "name": "Canyon <br>Cross",
+            "stage": "Moonlit Arena",
+            "time": "18:00 - 19:30",
+            "image": "../../assets/img/canyon-cross.jpg",
+            "link": "../groupes/canyon-cross.html"
+          },
+          {
+            "name": "Rocky Renega",
+            "stage": "Harmony Plaza",
+            "time": "15:30 - 17:00",
+            "image": "../../assets/img/rocky-renega.jpg",
+            "link": "../groupes/rocky-renega.html"
+          },
+          {
+            "name": "Tidal <br>Wave",
+            "stage": "Starlight Stage",
+            "time": "17:30 - 19:00",
+            "image": "../../assets/img/tidal-wave.jpg",
+            "link": "../groupes/tidal-wave.html"
+          },
+          {
+            "name": "Birch <br>Grove",
+            "stage": "Sunset Pavilion",
+            "time": "14:30 - 16:00",
+            "image": "../../assets/img/birch-grove.jpg",
+            "link": "../groupes/birch-grove.html"
+          },
+          {
+            "name": "Rebel <br>Trail",
+            "stage": "Texane Sunset",
+            "time": "17:00 - 18:30",
+            "image": "../../assets/img/rebel-trail.jpg",
+            "link": "../groupes/rebel-trail.html"
+          },
+          {
+            "name": "Outlaw <br>Bandits",
+            "stage": "Moonlit Arena",
+            "time": "16:00 - 17:30",
+            "image": "../../assets/img/outlaw-bandits.jpg",
+            "link": "../groupes/outlaw-bandits.html"
+          },
+          {
+            "name": "High <br>Plains",
+            "stage": "Harmony Plaza",
+            "time": "21:30 - 23:00",
+            "image": "../../assets/img/high-plains.jpg",
+            "link": "../groupes/high-plains.html"
+          },
+          {
+            "name": "Bluff <br>Point",
+            "stage": "Sunset Pavilion",
+            "time": "18:30 - 20:00",
+            "image": "../../assets/img/bluff-point.jpg",
+            "link": "../groupes/bluff-point.html"
+          },
+          {
+            "name": "Yellow <br>Stone",
+            "stage": "Starlight Stage",
+            "time": "15:00 - 16:30",
+            "image": "../../assets/img/yellow-stone.jpg",
+            "link": "../groupes/yellow-stone.html"
+          },
+          {
+            "name": "Prairie <br>Riders",
+            "stage": "Sunset Pavilion",
+            "time": "16:30 - 18:00",
+            "image": "../../assets/img/prairie-riders.jpg",
+            "link": "../groupes/prairie-riders.html"
+          },
+          {
+            "name": "Yacht <br>Club",
+            "stage": "Texane Sunset",
+            "time": "19:00 - 20:30",
+            "image": "../../assets/img/yacht-club.jpg",
+            "link": "../groupes/yacht-club.html"
+          },
+          {
+            "name": "Desert <br>Echoes",
+            "stage": "Harmony Plaza",
+            "time": "19:30 - 21:00",
+            "image": "../../assets/img/desert-echoes.jpg",
+            "link": "../groupes/desert-echoes.html"
+          },
+          {
+            "name": "Frontier <br>Harmony",
+            "stage": "Moonlit Arena",
+            "time": "22:00 - 23:30",
+            "image": "../../assets/img/frontier-harmony.jpg",
+            "link": "../groupes/frontier-harmony.html"
           }
         ]
       }
