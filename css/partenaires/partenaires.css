@@ -1,0 +1,99 @@
+/* Background color for cards */
+.bg {
+    background-color: rgba(57, 109, 50, 0.07);
+    color: #f7e5d4;
+}
+
+/* Fonts */
+.lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Title styling for cards */
+.title {
+    font-family: "Lobster", sans-serif;
+    font-size: 2.5rem;
+    color: #f7e5d4;
+
+}
+
+/* Body text styling for cards */
+.bod {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    color: #f7e5d4;
+}
+
+/* Institutional partners title styling */
+.title-inst {
+    font-family: 'Lobster', sans-serif;
+    color: #f7e5d4;
+    font-size: 2.5rem;
+}
+
+/* Footer styles */
+footer.bg-dark {
+    background-color: #333;
+    color: #ffffff;
+}
+
+footer a {
+    color: #f7e5d4;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer h5 {
+    color: #108d2b;
+}
+
+footer .list-inline-item a {
+    color: #f7e5d4;
+    font-size: 23px;
+}
+
+footer .list-inline-item a:hover {
+    color: #ffffff;
+}
+
+/* Custom button styles */
+.navbar .btn {
+    background-color: #0d5f1f;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+.navbar .btn:hover {
+    background-color: #0a4817;
+    color: #ffffff;
+}
+
+.navbar .nav-link.active {
+    color: #108d2b;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .title {
+        font-size: 2rem;
+    }
+
+    .title-inst {
+        font-size: 2rem;
+    }
+
+    .bod {
+        font-size: 0.9rem;
+    }
+}
