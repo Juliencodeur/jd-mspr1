@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Suivez le Nation Sound Festival sur les réseaux sociaux. Restez connecté avec les dernières mises à jour, annonces d'artistes, et moments forts en temps réel."
+    />
+
+    <!-- SEO and Social Media Meta Tags -->
+    <meta
+      property="og:title"
+      content="Nation Sound Festival - Réseaux Sociaux"
+    />
+    <meta
+      property="og:description"
+      content="Rejoignez la communauté du Nation Sound Festival sur les réseaux sociaux et restez informé de toutes les nouveautés et temps forts du festival."
+    />
+    <meta
+      property="og:image"
+      content="../../assets/img/logo.png"
+    />
+    <meta
+      property="og:url"
+      content="https://votre-site.com/reseaux-sociaux.html"
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Nation Sound Festival - Réseaux Sociaux"
+    />
+    <meta
+      name="twitter:description"
+      content="Suivez-nous sur les réseaux sociaux pour ne rien manquer des actualités et moments forts du Nation Sound Festival."
+    />
+    <meta
+      name="twitter:image"
+      content="../../assets/img/logo.png"
+    />
+
+    <!-- Favicon -->
+    <link rel="icon" href="../../assets/img/logo.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="../../assets/img/logo.png" />
+
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="../../css/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="../../css/navbar/navbar.css" />
+    <link rel="stylesheet" href="../../css/arrow/arrow.css" />
+    <link rel="stylesheet" href="../../css/colors/colors.css" />
+    <link rel="stylesheet" href="../../css/fonts/fonts.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Title -->
+    <title>Réseaux Sociaux - Nation Sound Festival</title>
+  </head>
+
+  <body class="vh-100">
+    <!-- start navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg2-custom fixed-top">
+      <div class="container">
+        <!-- logo -->
+        <a class="navbar-brand fs-4" href="../../index.html"
+          ><img src="../../assets/img/logo.png" alt="Logo Festival" />
+        </a>
+        <!-- toggle btn -->
+        <button
+          class="navbar-toggler shadow-none border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- sidebar -->
+        <div
+          class="sidebar offcanvas offcanvas-start"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <!-- sidebar header-->
+          <div class="offcanvas-header text-white border-bottom">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              Nation Sound
+            </h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white shadow-none"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <!-- sidebar body -->
+          <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
+            <ul
+              class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3"
+            >
+              <li class="nav-item mx-2">
+                <a class="nav-link" aria-current="page" href="../../index.html"
+                  >Infos</a
+                >
+              </li>
+              <li class="nav-item dropdown mx-2">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="../../html/pages/programmation.html"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Programmation
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="../../html/pages/dates.html"
+                      >Dates</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../../html/pages/heures.html"
+                      >Heures</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../../html/pages/lieux.html"
+                      >Lieux</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="../../html/pages/concerts.html"
+                  >Concerts</a
+                >
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="../../html/pages/billetterie.html"
+                  >Billetterie</a
+                >
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="../../html/pages/faq.html">FAQ</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="../../html/pages/carte.html">Carte</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a
+                  class="nav-link active"
+                  href="../../html/pages/reseaux-sociaux.html"
+                  >Réseaux sociaux</a
+                >
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="../../html/pages/partenaires.html"
+                  >Partenaires</a
+                >
+              </li>
+            </ul>
+            <!-- login / sign up-->
+            <div
+              class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3"
+            >
+              <a href="#login" class="text-white">Connexion</a>
+              <a
+                href="#signup"
+                class="text-white text-decoration-none px-3 py-1 rounded-4"
+                style="background-color: #0d5f1f"
+                >S'enregistrer</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- start content -->
+    <section id="social-media" class="container my-5">
+      <div class="text-center mb-5">
+        <h1 class="mb-3 tf my-5 py-5">Suivez Nation Sound sur les réseaux sociaux</h1>
+        <p class="title fs-2 tf2">
+          Rejoignez notre communauté et ne ratez aucune mise à jour!
+        </p>
+      </div>
+      <div class="row text-center g-4">
+        <!-- Facebook -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            class="text-decoration-none text-dark"
+          >
+            <img
+              src="https://img.icons8.com/color/96/facebook-new.png"
+              alt="Facebook"
+              class="img-fluid mb-3"
+            />
+            <p class="bf">
+              Restez informé des dernières annonces et participez à nos
+              événements.
+            </p>
+          </a>
+        </div>
+        <!-- X (Twitter) -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <a
+            href="https://x.com/?lang=fr"
+            target="_blank"
+            class="text-decoration-none text-dark"
+          >
+            <img
+              src="https://img.icons8.com/fluency/96/twitterx--v1.png"
+              alt="Twitter X"
+              class="img-fluid mb-3"
+            />
+            <p class="bf">
+              Rejoignez la conversation et partagez vos moments préférés avec
+              #NationSound.
+            </p>
+          </a>
+        </div>
+        <!-- Instagram -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <a
+            href="https://www.instagram.com"
+            target="_blank"
+            class="text-decoration-none text-dark"
+          >
+            <img
+              src="https://img.icons8.com/color/96/instagram-new--v1.png"
+              alt="Instagram"
+              class="img-fluid mb-3"
+            />
+            <p class="bf">
+              Découvrez les coulisses et les meilleurs clichés de nos
+              événements.
+            </p>
+          </a>
+        </div>
+        <!-- YouTube -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <a
+            href="https://www.youtube.com/"
+            target="_blank"
+            class="text-decoration-none text-dark"
+          >
+            <img
+              src="https://img.icons8.com/color/96/youtube-play.png"
+              alt="YouTube"
+              class="img-fluid mb-3"
+            />
+            <p class="bf">
+              Regardez nos vidéos en direct et replays de performances
+              inoubliables.
+            </p>
+          </a>
+        </div>
+        <!-- Snapchat -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <a
+            href="https://www.snapchat.com/fr-FR"
+            target="_blank"
+            class="text-decoration-none text-dark"
+          >
+            <img
+              src="https://img.icons8.com/fluency/96/snapchat.png"
+              alt="Snapchat"
+              class="img-fluid mb-3"
+            />
+            <p class="bf">
+              Suivez-nous pour des mises à jour instantanées et exclusives du
+              festival.
+            </p>
+          </a>
+        </div>
+        <!-- LinkedIn -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <a
+            href="https://fr.linkedin.com"
+            target="_blank"
+            class="text-decoration-none text-dark"
+          >
+            <img
+              src="https://img.icons8.com/color/96/linkedin.png"
+              alt="LinkedIn"
+              class="img-fluid mb-3"
+            />
+            <p class="bf">
+              Connectez avec nous pour des opportunités de networking et
+              carrière.
+            </p>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- end content -->
+
+    <!-- start footer -->
+    <footer class="bg-dark text-white pt-3 pb-3">
+      <div class="container text-center text-md-left">
+        <!-- Newsletter Form -->
+        <div class="row justify-content-center mb-4">
+          <div class="col-md-6">
+            <h5 class="text-uppercase fw-bold mb-3">
+              Abonnez-vous à notre newsletter
+            </h5>
+            <form class="d-flex">
+              <input
+                type="email"
+                class="form-control me-2"
+                placeholder="Votre email"
+                aria-label="Email"
+                required
+              />
+              <button class="btn btn-outline-light" type="submit">
+                S'abonner
+              </button>
+            </form>
+            <small class="form-text text-muted mt-2"
+              >Recevez les dernières nouvelles et mises à jour du
+              festival.</small
+            >
+          </div>
+        </div>
+        <!-- End Newsletter Form -->
+
+        <div class="row text-center text-md-left">
+          <!-- About Us -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5
+              class="text-uppercase mb-4 font-weight-bold"
+              style="color: #108d2b"
+            >
+              Contactez-nous
+            </h5>
+            <p>Email: info@Nation Sound-melody-festival</p>
+            <p>Tél: +33 7 01 10 02 20</p>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5
+              class="text-uppercase mb-4 font-weight-bold"
+              style="color: #108d2b"
+            >
+              Liens rapides
+            </h5>
+            <p>
+              <a
+                href="../../index.html"
+                class="text-white"
+                style="text-decoration: none"
+                >Informations</a
+              >
+            </p>
+            <p>
+              <a
+                href="../../html/pages/concerts.html"
+                class="text-white"
+                style="text-decoration: none"
+                >Concerts</a
+              >
+            </p>
+            <p>
+              <a
+                href="../../html/pages/billetterie.html"
+                class="text-white"
+                style="text-decoration: none"
+                >Billetterie</a
+              >
+            </p>
+            <p>
+              <a
+                href="../../html/pages/faq.html"
+                class="text-white"
+                style="text-decoration: none"
+                >FAQ</a
+              >
+            </p>
+            <p>
+              <a
+                href="../../html/pages/carte.html"
+                class="text-white"
+                style="text-decoration: none"
+                >Carte</a
+              >
+            </p>
+            <p>
+              <a
+                href="../../html/pages/partenaires.html"
+                class="text-white"
+                style="text-decoration: none"
+                >Partenaires</a
+              >
+            </p>
+          </div>
+          <!-- Social Media -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5
+              class="text-uppercase mb-4 font-weight-bold"
+              style="color: #108d2b"
+            >
+              Suivez-nous
+            </h5>
+            <a href="https://www.facebook.com/" target="_blank"
+              ><img
+                width="48"
+                height="48"
+                src="https://img.icons8.com/color/48/facebook-new.png"
+                alt="facebook-new"
+            /></a>
+            <a href="https://x.com/?lang=fr" target="_blank"
+              ><img
+                width="48"
+                height="48"
+                src="https://img.icons8.com/fluency/48/twitterx--v1.png"
+                alt="twitterx--v1"
+            /></a>
+            <a href="https://www.instagram.com" target="_blank"
+              ><img
+                width="48"
+                height="48"
+                src="https://img.icons8.com/color/48/instagram-new--v1.png"
+                alt="instagram-new--v1"
+            /></a>
+            <a href="https://www.youtube.com/" target="_blank"
+              ><img
+                width="48"
+                height="48"
+                src="https://img.icons8.com/color/48/youtube-play.png"
+                alt="youtube-play"
+            /></a>
+            <a href="https://www.snapchat.com/fr-FR" target="_blank"
+              ><img
+                width="48"
+                height="48"
+                src="https://img.icons8.com/fluency/48/snapchat.png"
+                alt="snapchat"
+            /></a>
+            <a href="https://fr.linkedin.com" target="_blank"
+              ><img
+                width="48"
+                height="48"
+                src="https://img.icons8.com/color/48/linkedin.png"
+                alt="linkedin"
+            /></a>
+          </div>
+        </div>
+
+        <hr class="mb-4" />
+
+        <div class="row align-items-center">
+          <div class="footer-bottom">
+            <div class="container">
+              <p class="text-center">© 2024 Nation Sound</p>
+              <p class="text-center">
+                <a
+                  href="../../html/footer/mentions-legales.html"
+                  target="_blank"
+                  >Mentions légales</a
+                >
+                |
+                <a href="../../html/footer/privacy.html" target="_blank"
+                  >Politique de confidentialité</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+    <!-- start row -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <img
+        src="https://img.icons8.com/material-outlined/24/circled-chevron-up.png"
+        alt="circled-chevron-up"
+      />
+    </button>
+    <!-- end row -->
+
+    <!-- start script js -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.locatecontrol/0.72.0/L.Control.Locate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.js"></script>
+    <script src="../../js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="../../js/map/map.js"></script>
+    <script src="../../js/arrow/arrow.js"></script>
+  </body>
+</html>
