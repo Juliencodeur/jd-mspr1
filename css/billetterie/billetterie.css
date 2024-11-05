@@ -1,0 +1,174 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  color: #D8DDE0;
+
+}
+
+.marg {
+  margin-top: 8rem;
+}
+
+/* Billetterie Section */
+#billetterie {
+
+  color: #D8DDE0;
+  padding-bottom: 60px;
+}
+
+#billetterie .text-shadow {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+#billetterie .card {
+  position: relative;
+  overflow: hidden;
+  border: none;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+#billetterie .card-img-top {
+  width: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+
+#billetterie .card:hover .card-img-top {
+  transform: scale(1.08);
+}
+
+#billetterie .image-container {
+  position: relative;
+}
+
+#billetterie .text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+#billetterie .card-title {
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin-bottom: 15rem;
+}
+
+#billetterie .card-text {
+  font-size: 1.5rem;
+  margin-top: 18.5rem;
+}
+
+#billetterie .card-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: #D8DDE0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  z-index: 2;
+}
+
+#billetterie .card:hover .card-overlay {
+  opacity: 1;
+}
+
+#billetterie .overlay-content {
+  text-align: center;
+}
+
+#billetterie .btn-outline-light {
+  border-color: #108d2b;
+  color: #D8DDE0;
+  font-weight: bold;
+  padding: 10px 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#billetterie .btn-outline-light:hover {
+  background-color: #108d2b;
+  color: #fff;
+}
+
+/* Footer */
+footer {
+  background-color: #343a40;
+  color: #D8DDE0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer h5 {
+  color: #D8DDE0;
+  margin-bottom: 15px;
+}
+
+footer a {
+  color: #D8DDE0;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #D8DDE0;
+}
+
+footer .social-icons img {
+  width: 48px;
+  height: 48px;
+  margin-right: 10px;
+}
+
+footer .newsletter-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+footer .newsletter-form input[type="email"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+footer .newsletter-form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #108d2b;
+  color: #fff;
+  cursor: pointer;
+}
+
+footer .newsletter-form button:hover {
+  background-color: #0d5f1f;
+}
+
+footer .footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #D8DDE0;
+  padding-top: 10px;
+}
+
+footer .footer-bottom p {
+  margin: 0;
+}
+
+footer .footer-bottom p a {
+  color: #D8DDE0;
+}
+
+footer .footer-bottom p a:hover {
+  color: #D8DDE0;
+}
