@@ -1,9 +1,8 @@
-/* Styles pour le bouton retour en haut */
-#myBtn {
-  display: none;
+/* Style pour les boutons de navigation */
+#myBtn, #backBtn, #downBtn {
+  display: none; /* Masque les boutons par défaut */
   position: fixed;
-  bottom: 1rem;
-  right: 1.5rem;
+  right: 1.5rem; /* Positionné à droite */
   z-index: 99;
   border: none;
   outline: none;
@@ -15,8 +14,22 @@
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
 }
 
-#myBtn img {
-  width: 1rem;
-  height: 1rem;
+/* Position spécifique pour chaque bouton */
+#downBtn {
+  bottom: 1rem; /* "Aller en bas" est au-dessus des autres boutons */
+}
+
+#myBtn {
+  bottom: 7rem; /* "Retour en haut" est au milieu */
+}
+
+#backBtn {
+  bottom: 4rem; /* "Retour" est en bas */
+}
+
+/* Styles des icônes dans les boutons */
+#myBtn img, #backBtn img, #downBtn img {
+  width: 1.5rem; /* Taille de l'icône pour une meilleure visibilité */
+  height: 1.5rem;
   vertical-align: middle;
 }
