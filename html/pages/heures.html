@@ -19,9 +19,10 @@
   <!-- CSS Links -->
   <link rel="stylesheet" href="../../css/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="../../css/navbar/navbar.css">
-  <link rel="stylesheet" href="../../css/row/row.css">
+  <link rel="stylesheet" href="../../css/arrow/arrow.css">
   <link rel="stylesheet" href="../../css/colors/colors.css">
   <link rel="stylesheet" href="../../css/fonts/fonts.css">
+  <link rel="stylesheet" href="../../css/ariane/ariane.css">
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -101,6 +102,16 @@
   <!-- end navbar -->
   <!-- start navbar days -->
   <div class="container mt-5 pt-5">
+    <!-- start ariane-->
+    <nav aria-label="breadcrumb" class="breadcrumb-container">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="../../html/pages/dates.html">Dates</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Heures</li>
+        <li class="breadcrumb-item"><a href="../../html/pages/lieux.html">Lieux</a></li>
+      </ol>
+    </nav>    
+    <!-- end ariane-->  
+      
     <div class="row mt-5">
       <h1 class="tf text-center mb-5">Retrouvez toutes les heures ici </h1>
       <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
@@ -139,7 +150,7 @@
     </div>
   
     <!-- Accordéon 3 centré en dessous -->
-    <div class="row justify-content-center mt-4">
+    <div class="row justify-content-center mt-4 mb-5">
       <div class=" col-md-6 col-12 mt-5">
         <div class="accordion accordion-flush" id="accordionFlushExample3">
           <!-- Contenu du troisième accordéon généré dynamiquement -->
@@ -247,15 +258,29 @@
     </div>
   </footer>
   <!-- end footer -->
-  <!-- start row --> 
-  <button onclick="topFunction()" id="myBtn" title="Go to top">
-    <img src="https://img.icons8.com/material-outlined/24/circled-chevron-up.png" alt="circled-chevron-up"/>
+
+  <!-- start back to top button -->
+  <button onclick="topFunction()" id="myBtn" title="Retour en haut">
+    <img src="https://img.icons8.com/material-outlined/24/circled-chevron-up.png" alt="Retour en haut"/>
   </button>
-  <!-- end row -->
+  <!-- start back to top button -->
+
+  <!-- start back Button -->
+  <button onclick="backFunction()" id="backBtn" title="Retour en arrière">
+    <img src="https://img.icons8.com/material-outlined/24/circled-chevron-left.png" alt="Retour en arrière"/>
+  </button>
+  <!-- end back button -->
+
+  <!-- start go to bottom Button -->
+  <button onclick="bottomFunction()" id="downBtn" title="Aller en bas">
+    <img src="https://img.icons8.com/material-outlined/24/circled-chevron-down.png" alt="Aller en bas"/>
+  </button>
+  <!-- end go to bottom button -->
+   
   <!-- start script js -->
   <script src="../../js/bootstrap/bootstrap.bundle.min.js"></script>
   <script src="../../js/hours/hours.js"></script>
-  <script src="../../js/row/row.js"></script>
+  <script src="../../js/arrow/arrow.js"></script>
   <script src="../../js/accordion/accordion.js"></script>
 </body>
 

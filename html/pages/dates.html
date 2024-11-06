@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="../../css/navbar/navbar.css">
     <link rel="stylesheet" href="../../css/arrow/arrow.css">
     <link rel="stylesheet" href="../../css/colors/colors.css">
+    <link rel="stylesheet" href="../../css/ariane/ariane.css">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -107,6 +108,20 @@
 
 <!-- start navbar days -->
 <div class="container mt-5 pt-5">
+
+    <!-- start ariane-->
+    <nav aria-label="breadcrumb" class="breadcrumb-container">
+        <ol class="breadcrumb">
+        <li class="breadcrumb-item active" aria-current="page">Dates</li>
+        <li class="breadcrumb-item"><a href="../../html/pages/heures.html">Heures</a></li>
+        <li class="breadcrumb-item"><a href="../../html/pages/lieux.html">Lieux</a></li>
+        </ol>
+    </nav>
+    <!-- end ariane-->
+
+<!-- end ariane-->
+ 
+                  
     <div class="row mt-5">
         <h1 class="tf text-center mb-5">Retrouvez toutes les dates ici </h1>
         <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
@@ -236,11 +251,24 @@
     </footer>
     <!-- end footer -->
 
-  <!-- start row --> 
-  <button onclick="topFunction()" id="myBtn" title="Go to top">
-    <img src="https://img.icons8.com/material-outlined/24/circled-chevron-up.png" alt="circled-chevron-up"/>
+  <!-- start back to top button -->
+  <button onclick="topFunction()" id="myBtn" title="Retour en haut">
+    <img src="https://img.icons8.com/material-outlined/24/circled-chevron-up.png" alt="Retour en haut"/>
   </button>
-  <!-- end row -->
+  <!-- start back to top button -->
+
+  <!-- start back Button -->
+  <button onclick="backFunction()" id="backBtn" title="Retour en arrière">
+    <img src="https://img.icons8.com/material-outlined/24/circled-chevron-left.png" alt="Retour en arrière"/>
+  </button>
+  <!-- end back button -->
+
+  <!-- start go to bottom Button -->
+  <button onclick="bottomFunction()" id="downBtn" title="Aller en bas">
+    <img src="https://img.icons8.com/material-outlined/24/circled-chevron-down.png" alt="Aller en bas"/>
+  </button>
+  <!-- end go to bottom button -->
+   
     <!-- start script js -->
     <script src="../../js/bootstrap/bootstrap.bundle.min.js"></script>
     <script src="../../js/dates/dates.js"></script>
