@@ -2,7 +2,6 @@
 body {
   font-family: Arial, sans-serif;
   color: #D8DDE0;
-
 }
 
 .marg {
@@ -11,7 +10,6 @@ body {
 
 /* Billetterie Section */
 #billetterie {
-
   color: #D8DDE0;
   padding-bottom: 60px;
 }
@@ -51,6 +49,14 @@ body {
   z-index: 1;
 }
 
+/* Titres */
+#billetterie h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 5rem;
+  font-family: 'Arial', sans-serif; /* Police d'origine pour les titres */
+}
+
 #billetterie .card-title {
   font-size: 1.7rem;
   font-weight: bold;
@@ -62,6 +68,7 @@ body {
   margin-top: 18.5rem;
 }
 
+/* Card Overlay */
 #billetterie .card-overlay {
   position: absolute;
   top: 0;
@@ -86,6 +93,7 @@ body {
   text-align: center;
 }
 
+/* Button Styling */
 #billetterie .btn-outline-light {
   border-color: #108d2b;
   color: #D8DDE0;
@@ -99,76 +107,24 @@ body {
   color: #fff;
 }
 
-/* Footer */
-footer {
-  background-color: #343a40;
-  color: #D8DDE0;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-footer h5 {
-  color: #D8DDE0;
-  margin-bottom: 15px;
-}
-
-footer a {
-  color: #D8DDE0;
-  text-decoration: none;
-}
-
-footer a:hover {
-  color: #D8DDE0;
-}
-
-footer .social-icons img {
-  width: 48px;
-  height: 48px;
-  margin-right: 10px;
-}
-
-footer .newsletter-form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-footer .newsletter-form input[type="email"] {
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  margin-right: 10px;
-}
-
-footer .newsletter-form button {
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  background-color: #108d2b;
-  color: #fff;
-  cursor: pointer;
-}
-
-footer .newsletter-form button:hover {
-  background-color: #0d5f1f;
-}
-
-footer .footer-bottom {
+/* Footer Styling */
+.ticket-footer {
+  background-color: rgba(21, 39, 25, 0.9);
+  border-top: 2px solid rgba(227, 242, 253, 0.6);
+  border-radius: 0 0 10px 10px;
   text-align: center;
-  margin-top: 20px;
-  border-top: 1px solid #D8DDE0;
-  padding-top: 10px;
+  padding: 10px;
 }
 
-footer .footer-bottom p {
-  margin: 0;
+.ticket-footer .text-white {
+  color: white;
 }
 
-footer .footer-bottom p a {
-  color: #D8DDE0;
+.ticket-footer .fw-bold {
+  font-weight: bold;
 }
 
-footer .footer-bottom p a:hover {
-  color: #D8DDE0;
+/* Pass Section Styles */
+#billetterie .col-md-4 {
+  margin-bottom: 30px;
 }
