@@ -1,0 +1,32 @@
+/* Style pour les boutons de navigation */
+#myBtn, #backBtn {
+    display: none; /* Masque les boutons par défaut */
+    position: fixed;
+    right: 1.5rem; /* Positionné à droite */
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Position spécifique pour chaque bouton */
+  #myBtn {
+    bottom: 4rem; /* "Retour en haut" est en bas */
+  }
+  
+  #backBtn {
+    bottom: 1rem; /* "Retour" est positionné légèrement plus haut */
+  }
+  
+  /* Styles des icônes dans les boutons */
+  #myBtn img, #backBtn img {
+    width: 1.5rem; /* Taille de l'icône pour une meilleure visibilité */
+    height: 1.5rem;
+    vertical-align: middle;
+  }
+  
